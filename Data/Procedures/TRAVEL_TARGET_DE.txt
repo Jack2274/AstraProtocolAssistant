@@ -1,0 +1,18 @@
+# keywords: hinfliegen, fliegen, reisen, ziel, zielort, bewegen, navigieren, anfliegen, annähern, autopilot, objekt, kurs setzen
+ZU EINEM ZIEL FLIEGEN
+Fliegt das Schiff mit dem Autopiloten zu einem Objekt.
+
+VOR DEM START
+- Das Ziel muss in Reichweite des Nahbereichsscanners sein.
+
+SCHRITTE
+1. TARGET STATION             Erfasst das Ziel (oder SHIP, PLANET, CLOSEST...)
+2. PLOT ROUTE TARGET          Fügt die Zielposition zur Route hinzu
+3. SET LIMITER 500            (optional) Höchsttempo des Autopiloten
+4. ENABLE LIMITER             (optional) Schaltet den Tempobegrenzer ein
+5. ENABLE AUTOPILOT           Startet den Flug (oder F9 in NAVIGATION)
+
+ACHTUNG
+- Der Autopilot steuert den Reaktor nicht: ENGINEERING (F2) im Auge behalten.
+- PLOT ROUTE TARGET speichert die Position einmalig. Bei bewegtem Ziel
+  FOLLOW <dist1> <dist2> mit eingeschaltetem Autopiloten verwenden.

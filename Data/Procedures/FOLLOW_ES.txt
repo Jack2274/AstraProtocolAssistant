@@ -1,0 +1,18 @@
+# keywords: seguir, perseguir, persecución, rastrear, acompañar, escoltar, escolta, ir detrás, piloto automático, nave, alcanzar
+SEGUIR UNA NAVE
+Persiga una nave en movimiento con el piloto automático.
+
+ANTES DE EMPEZAR
+- La nave debe estar al alcance del escáner de corto alcance.
+
+PASOS
+1. TARGET SHIP                Fija la nave más cercana (o FIGHTER para cazas)
+2. FOLLOW 100 200             Sigue: se acerca hasta 100, se detiene a 200
+3. ENABLE AUTOPILOT           Empieza a seguir (o F9 en NAVIGATION)
+4. ABORT FOLLOW               Deja de seguir cuando quiera
+
+ATENCIÓN
+- TARGET SHIP fija la nave más cercana, que puede ser hostil.
+- Sin argumentos, FOLLOW usa las distancias por defecto del juego;
+  ajuste los valores según el objetivo.
+- El piloto automático no gestiona el reactor: vigile ENGINEERING (F2).

@@ -1,0 +1,18 @@
+# keywords: collision, crash, choc, impact, astéroïde, éviter, esquiver, contourner, obstacle, alarme, alerte, percuter
+ALERTE DE COLLISION
+Réagir quand l'alarme de collision se déclenche.
+
+ÉTAPES
+1. TARGET COLLIDER            Verrouille ce qui a déclenché l'alarme
+2. SCAN                       Identifie l'objet (astéroïde, vaisseau...)
+3. SET THRUSTERS 100          Esquive latérale (ou -100 pour l'autre côté)
+4. SET SHIELDS FORWARD 100    Renforce la face menacée
+5. SET LASER MODE TARGET      (si astéroïde) Lasers sur la cible
+6. ENABLE LASERS              Tire sur l'objet
+7. STABILIZE ALL              S'arrête une fois hors de la trajectoire
+
+ATTENTION
+- Ne commencez pas par STABILIZE : s'arrêter ne dégage pas le vaisseau.
+- Le contrôle manuel (F12) de HELM n'a pas de poussée latérale : SET THRUSTERS.
+- Utilisez la face (FORWARD, STARBOARD, PORT, AFT) d'où vient l'objet ;
+  le radar de combat dans ORDNANCE (F4) la montre.

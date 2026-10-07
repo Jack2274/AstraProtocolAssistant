@@ -1,0 +1,17 @@
+# keywords: distorsion, saut, sauter, téléporter, téléportation, hyperespace, voyage rapide, loin, lointain, distance, vitesse supraluminique
+SAUT EN DISTORSION
+Plier l'espace pour atteindre un point lointain presque instantanément.
+
+AVANT DE COMMENCER
+- Vérifiez le réacteur dans ENGINEERING (F2) : le warp le charge énormément.
+
+ÉTAPES
+1. DISABLE AUTOPILOT          Évite que le pilote auto. déplace le vaisseau
+2. STABILIZE ALL              Le vaisseau doit rester immobile
+3. WARP 10,10                 Lance le moteur de distorsion vers la coordonnée
+4. INJECT COOLANT 20          (si besoin) Refroidit le réacteur en charge
+5. ABORT WARP                 (si besoin) Annule le saut
+
+ATTENTION
+- Le warp met du temps à se charger ; ne déplacez pas le vaisseau entre-temps.
+- Après le saut, un choc électromagnétique peut désactiver des systèmes.

@@ -1,0 +1,26 @@
+# keywords: kampf, angriff, angreifen, kämpfen, gefecht, schlacht, schießen, feuern, feind, feindlich, gegner, waffen, zerstören, töten, raketen, laser
+IN DEN KAMPF GEHEN
+Bereitet das Schiff vor und greift ein feindliches Schiff an.
+
+VOR DEM START
+- Reaktorlast und Hüllenintegrität in ENGINEERING (F2) prüfen.
+
+SCHRITTE
+1. SCAN SPACECRAFT            Ortet Schiffe in der Nähe
+2. SET SHIELDS 100            Schilde auf voller Leistung
+3. ENABLE LASERS              Automatisches Laserfeuer
+4. SET LASER MODE TARGET      Laser priorisieren das aktuelle Ziel
+5. TARGET SHIP                Erfasst das nächste Schiff
+6. SCAN                       Baupläne des Ziels (in ORDNANCE angezeigt)
+7. FIRE ALL                   Feuert alle geladenen Raketen
+8. RELOAD ALL                 Vor der nächsten Salve nachladen
+
+OPTIONAL
+- ENABLE SIGNAL JAMMERS       Stört die Signale des Ziels
+- LAUNCH EMP                  Impuls, der Elektronik in der Nähe stört
+
+ACHTUNG
+- Schilde und Laser erhöhen die Reaktorlast: ENGINEERING (F2) beobachten.
+- Raketen suchen das Ziel selbst; Munition in ORDNANCE (F4) prüfen.
+- Der EMP trifft jedes elektrische Gerät im Impuls, evtl. das eigene Schiff:
+  nicht abfeuern, wenn der Feind direkt am Schiff ist (Standardzünder: 3 s).

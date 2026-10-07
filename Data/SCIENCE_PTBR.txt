@@ -1,0 +1,43 @@
+# keywords: escanear, escaneamento, varredura, varrer, sensor, detectar, encontrar, achar, procurar, identificar, alvo, travar, mira, sonda, planeta, sinal, ruído, radar, mapa, pedido de socorro, socorro, sinalizador, farol
+SCIENCE (F3) - Detecção e identificação
+Mapa de longo alcance, vista curta, forma de onda do sinal mais próximo,
+contador Geiger, sondas restantes e esquema do alvo.
+
+TECLAS
+F9                            Escaneia o alvo
+F10 / F11                     Aproxima / afasta o mapa
+
+ALVO (só dentro do alcance curto)
+TARGET CLOSEST                Alvo válido mais próximo
+TARGET SHIP                   Nave mais próxima
+TARGET FIGHTER                Caça mais próximo (inclui aliados)
+TARGET STATION                Estação espacial mais próxima
+TARGET PLANET                 Corpo celeste mais próximo
+TARGET ASTEROID               Detrito/asteroide mais próximo
+TARGET LIFEFORMS              Forma de vida mais próxima
+TARGET COLLIDER               O que disparou o alerta de colisão
+TARGET CLEAR                  Limpa o alvo
+
+SCANNERS
+SCAN                          Escaneia o alvo atual
+SCAN SPACECRAFT               Naves próximas e distância relativa
+ABORT SCAN                    Cancela scans ativos/pendentes
+LONG RANGE SCAN               Corpo celeste, sinais artificiais e estações
+DISPLAY LONG RANGE SCAN       Último resultado (coordenadas relativas)
+DISPLAY DETAILS               Leitura científica do alvo (←/→ páginas)
+LAUNCH PROBE                  Lança sonda (exige sonda no estoque)
+FILTER NOISE                  Filtra ruído (nave precisa estar parada)
+ABORT FILTER                  Para a filtragem
+ENABLE RADIO                  Liga o scanner de longo alcance
+DISABLE RADIO                 Desliga o scanner de longo alcance
+SET RADIO <alcance>           Alcance do scanner de longo alcance
+
+MAPA
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (padrão 1)
+SET ZOOM <%>                  Define o zoom
+RECENTRE                      Centraliza o mapa na nave
+
+CONTROLE MANUAL (F12, Esc sai)
+↑ ↓ ← →                       Move o cursor
+Enter                         Trava o alvo sob o cursor
++ / -                         Aproxima / afasta

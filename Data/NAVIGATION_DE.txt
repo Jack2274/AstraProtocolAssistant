@@ -1,0 +1,43 @@
+# keywords: navigation, navigieren, route, weg, wegpunkt, autopilot, reisen, fliegen, karte, sektorkarte, sternenkarte, koordinaten, sprung, springen, folgen, verfolgen, begrenzer, tempolimit, geschwindigkeitsbegrenzung
+NAVIGATION (F5) - Navigation und Autopilot
+Sektorkarte, Nahbereichsansicht, Kompass, Autopilot-Status und Route.
+
+TASTENKÜRZEL
+F9                            Autopilot umschalten
+F10 / F11                     Hineinzoomen / herauszoomen
+
+ROUTE
+PLOT ROUTE <x,y>              Fügt eine Koordinate zur Route hinzu
+PLOT ROUTE TARGET             Fügt die aktuelle Zielposition hinzu
+REMOVE ROUTE [Anzahl]         Entfernt den/die letzten Punkt(e)
+CLEAR ROUTE                   Löscht die gesamte Route
+
+AUTOPILOT
+ENABLE AUTOPILOT              Schaltet ein
+DISABLE AUTOPILOT             Schaltet aus
+SET AUTOPILOT ENGINES <Wert>      Triebwerksrate unter Autopilot
+SET AUTOPILOT THRUSTERS <Wert>    Schubdüsenrate
+SET AUTOPILOT RUDDER <Wert>       Ruderrate
+ENABLE LIMITER                Schaltet den Tempobegrenzer ein
+DISABLE LIMITER               Schaltet den Begrenzer aus
+SET LIMITER <Tempo>           Höchsttempo des Autopiloten
+FOLLOW [Dist1] [Dist2]        Folgt Ziel (nähern bis Dist1, Stopp bei Dist2)
+ABORT FOLLOW                  Beendet das Folgen
+
+WARP
+WARP <x,y>                    Warp zur Koordinate (Schiff muss stillstehen)
+ABORT WARP                    Schaltet den Warpantrieb ab
+  Massive Reaktorlast; der Schock legt Systeme eine Weile lahm.
+
+KARTE
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (Standard 1)
+SET ZOOM <%>                  Setzt den Zoom
+RECENTRE                      Zentriert die Karte auf das Schiff
+DISPLAY STARCHART             Sternkarte der entdeckten Punkte
+  Leertaste = Namen ein/aus   Tab = markiertes Objekt wechseln
+
+MANUELLE STEUERUNG (F12, Esc beendet)
+↑ ↓ ← →                       Cursor bewegen
+Enter                         Punkt zur Route hinzufügen
+Backspace                     Letzten Punkt entfernen
++ / -                         Hineinzoomen / herauszoomen

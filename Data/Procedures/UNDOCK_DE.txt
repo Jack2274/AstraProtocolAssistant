@@ -1,0 +1,15 @@
+# keywords: abdocken, ablegen, station verlassen, abfliegen, aufbrechen, lösen, trennen, abkoppeln, nabelschnur, luftschleuse
+ABDOCKEN
+Verlässt eine Station nach dem Andocken sicher.
+
+SCHRITTE
+1. CLOSE AIRLOCK PORT         Schließt den Durchgang (schützt Lebenserhaltung)
+2. UMBILICAL UNLOCK PORT      Löst die Klammern
+3. UMBILICAL RETRACT PORT     Fährt die Nabelschnur ein
+4. ABORT LINK                 Beendet den Datenlink
+5. SET THRUSTERS -20          Seitlich wegbewegen (weg von der Station)
+6. STABILIZE ALL              Stoppt in sicherem Abstand
+
+ACHTUNG
+- Immer UNLOCK vor RETRACT, sonst kann die Nabelschnur reißen.
+- Dieselbe Seite (PORT oder STARBOARD) wie beim Andocken verwenden.

@@ -1,0 +1,17 @@
+# keywords: sprung, springen, warpsprung, teleportieren, hyperraum, schnellreise, schnell reisen, weit, fern, entfernung, distanz, raum falten
+WARPSPRUNG
+Faltet den Raum, um einen fernen Punkt fast sofort zu erreichen.
+
+VOR DEM START
+- Reaktor in ENGINEERING (F2) prüfen: der Warp belastet ihn massiv.
+
+SCHRITTE
+1. DISABLE AUTOPILOT          Verhindert, dass der Autopilot das Schiff bewegt
+2. STABILIZE ALL              Das Schiff muss stillstehen
+3. WARP 10,10                 Startet den Warpantrieb zur Koordinate
+4. INJECT COOLANT 20          (falls nötig) Kühlt den Reaktor beim Aufladen
+5. ABORT WARP                 (falls nötig) Bricht den Sprung ab
+
+ACHTUNG
+- Der Warp braucht Zeit zum Aufladen; das Schiff währenddessen nicht bewegen.
+- Nach dem Sprung kann ein elektromagnetischer Schock Systeme kurz lahmlegen.

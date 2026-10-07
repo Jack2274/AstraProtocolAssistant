@@ -1,0 +1,15 @@
+# keywords: explorer, exploration, chercher, recherche, trouver, découvrir, secteur, carte, radar, longue portée, coordonnées, signaux, corps célestes, balayage
+EXPLORATION LONGUE PORTÉE
+Trouver corps célestes, signaux artificiels et stations dans le secteur.
+
+ÉTAPES
+1. ENABLE RADIO               Active les scanners longue portée
+2. SET RADIO 10000            Portée des scanners
+3. LONG RANGE SCAN            Analyse le secteur
+4. DISPLAY LONG RANGE SCAN    Affiche les résultats
+5. SCAN SPACECRAFT            (optionnel) Vaisseaux proches et leur distance
+
+ATTENTION
+- Destination = coordonnées du vaisseau (HELM) + coordonnées du scan, quel
+  que soit le cap. F7 (calculateur) fait la somme et copie le PLOT ROUTE.
+- Les scanners chargent le réacteur ; DISABLE RADIO quand inutiles.

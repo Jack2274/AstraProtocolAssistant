@@ -1,0 +1,15 @@
+# keywords: erkunden, erkundung, suchen, finden, entdecken, sektor, karte, radar, fernbereich, langstrecke, reichweite, koordinaten, himmelskörper, signale, scannen
+FERNBEREICHSERKUNDUNG
+Findet Himmelskörper, künstliche Signale und Stationen im Sektor.
+
+SCHRITTE
+1. ENABLE RADIO               Schaltet die Fernbereichsscanner ein
+2. SET RADIO 10000            Reichweite der Scanner
+3. LONG RANGE SCAN            Analysiert den Sektor
+4. DISPLAY LONG RANGE SCAN    Zeigt die Ergebnisse
+5. SCAN SPACECRAFT            (optional) Schiffe in der Nähe und Entfernung
+
+ACHTUNG
+- Ziel = Schiffskoordinaten (HELM) + Scan-Koordinaten, unabhängig vom Kurs.
+  F7 (Rechner) addiert sie und kopiert den PLOT ROUTE-Befehl.
+- Scanner erhöhen die Reaktorlast; DISABLE RADIO, wenn nicht benötigt.

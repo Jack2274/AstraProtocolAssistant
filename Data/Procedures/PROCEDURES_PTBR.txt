@@ -1,0 +1,18 @@
+# Procedimentos operacionais: ID|Título
+# O ID é o prefixo do arquivo de cada procedimento (TRAVEL_TARGET_PTBR.txt, ...).
+# Ordem dos passos baseada no manual oficial e em guias de jogadores.
+TRAVEL_TARGET|Viajar até um alvo
+TRAVEL_COORDS|Viajar até coordenadas
+FOLLOW|Seguir uma nave
+STOP|Parar a nave
+WARP|Salto de warp
+DOCK|Atracar, reparar e reabastecer
+UNDOCK|Desatracar
+PLANET|Investigar um planeta
+STATION|Investigar uma estação
+LONGSCAN|Varredura de longo alcance
+COMBAT|Entrar em combate
+MISSILE_DEF|Defesa contra mísseis
+COLLISION|Alerta de colisão
+FIGHTERS|Usar caças
+REACTOR|Emergência no reator

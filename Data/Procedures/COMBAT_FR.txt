@@ -1,0 +1,26 @@
+# keywords: attaquer, attaque, combattre, combat, bataille, tirer, ennemi, hostile, armes, tuer, détruire, missiles, lasers, boucliers
+ENGAGER LE COMBAT
+Préparer le vaisseau et attaquer un vaisseau hostile.
+
+AVANT DE COMMENCER
+- Vérifiez la charge du réacteur et la coque dans ENGINEERING (F2).
+
+ÉTAPES
+1. SCAN SPACECRAFT            Repère les vaisseaux proches
+2. SET SHIELDS 100            Boucliers à pleine puissance
+3. ENABLE LASERS              Tir laser automatique
+4. SET LASER MODE TARGET      Les lasers privilégient la cible actuelle
+5. TARGET SHIP                Verrouille le vaisseau le plus proche
+6. SCAN                       Schémas de la cible (affichés dans ORDNANCE)
+7. FIRE ALL                   Tire tous les missiles chargés
+8. RELOAD ALL                 Recharge avant la salve suivante
+
+OPTIONNEL
+- ENABLE SIGNAL JAMMERS       Brouille les signaux de la cible
+- LAUNCH EMP                  Impulsion qui dégrade l'électronique proche
+
+ATTENTION
+- Boucliers et lasers chargent le réacteur : surveillez ENGINEERING (F2).
+- Les missiles sont guidés vers la cible ; munitions dans ORDNANCE (F4).
+- L'EMP touche tout appareil électrique dans l'impulsion, peut-être le vôtre :
+  ne le lancez pas avec l'ennemi collé au vaisseau (détonateur : 3 s).

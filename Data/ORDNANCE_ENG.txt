@@ -1,0 +1,43 @@
+# keywords: weapons, combat, attack, fight, shoot, fire, missile, torpedo, laser, mine, chaff, emp, jammer, fighters, drones, defense, ammo, ammunition
+ORDNANCE (F4) - Combat
+Shields, combat radar, ammunition (missiles, mines, chaff), target lock,
+lasers, torpedo tube reload status and target schematics.
+
+MISSILES
+FIRE [ALL]                    Fires all loaded missiles
+FIRE <side> [ALL | tube]      Fires one side (or one tube)
+RELOAD [ALL]                  Reloads all
+RELOAD <side> [ALL | tube]    Reloads one side (or one tube)
+UNLOAD [ALL]                  Unloads all
+UNLOAD <side> [ALL | tube]    Unloads one side (or one tube)
+ABORT RELOAD [side | ALL]     Cancels in-progress reloads
+  <side> = FORWARD | STARBOARD | PORT
+
+LASERS
+ENABLE LASERS                 Turns on automatic targeting and firing
+DISABLE LASERS                Turns off
+SET LASERS <%>                Laser power
+SET LASER MODE <mode>         Automatic targeting priority:
+  ASTEROIDS | CLOSEST | FIGHTERS | LIFEFORMS | MISSILES | TARGET
+
+COUNTERMEASURES
+DROP CHAFF                    Drops chaff (electromagnetic countermeasure)
+DROP MINE                     Drops a mine
+LAUNCH EMP [fuse]             EMP pulse (default fuse 3 s)
+ENABLE SIGNAL JAMMERS         Jams the target's signals (needs target)
+DISABLE SIGNAL JAMMERS        Stops jamming
+
+FIGHTERS (AI drones)
+LAUNCH FIGHTERS [bay]         Launches fighters (no bay = all)
+RECALL FIGHTERS [fighter]     Recalls fighters (no number = all)
+SET FIGHTER MODE <mode> [fighter]
+  CLOSEST | FIGHTERS | SHIPS | TARGET | IDLE (follows ship, no attack)
+
+SHIELDS
+SET SHIELDS [face] <%>        FORWARD | STARBOARD | PORT | AFT
+
+MANUAL CONTROLS (F12, Esc exits)
+Num 0                         Toggle lasers
+Num 7 / 4 / 1                 Port missile 1 / 2 / 3
+Num 9 / 6 / 3                 Starboard missile 1 / 2 / 3
+Num 8 / 5                     Forward missile 1 / 2

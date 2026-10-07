@@ -1,0 +1,36 @@
+# keywords: pilotar, pilotagem, conduzir, guiar, mover, movimento, deslocar, velocidade, motor, motores, propulsão, propulsores, rodar, virar, rumo, direção, orientação, bússola, leme, acoplar, acoplagem, umbilical, parar, travar, inércia
+HELM (F1) - Pilotagem da nave
+Vista curta, motores, propulsores, leme, velocidade, coordenadas e bússola.
+A nave mantém o movimento com motores a 0 (inércia), salvo se estabilizada.
+
+MOTORES
+SET ENGINES <%>               Motor principal, frente/ré (negativo = ré)
+SET THRUSTERS <%>             Laterais (+ estibordo / - bombordo)
+SET RUDDER <%>                Rotação (+ horária / - anti-horária)
+SET BEARING <ângulo>          Roda a nave até ao rumo indicado
+
+ESTABILIZAR
+STABILIZE [ALL]               Anula a translação e a rotação
+STABILIZE POSITION            Anula só a translação
+STABILIZE ROTATION            Anula só a rotação
+
+ACOPLAGEM
+DISPLAY DOCKING HUD           Abre o HUD de acoplagem (só no HELM)
+DATA LINK                     Liga-se ao alvo (ambos os lados têm de aceitar)
+ABORT LINK                    Cancela o data link
+REQUEST DOCK                  Pede acoplagem (requer DATA LINK)
+REQUEST DRYDOCK               Pede reparação (requer DATA LINK)
+REQUEST RESUPPLY              Pede reabastecimento (requer DATA LINK)
+UMBILICAL ANGLE <lado> <ângulo>   Ângulo do umbilical (recolhido)
+UMBILICAL EXTEND <lado>       Estende o umbilical
+UMBILICAL LOCK <lado>         Prende-o ao airlock do alvo
+UMBILICAL UNLOCK <lado>       Solta-o (solte-o antes de o recolher!)
+UMBILICAL RETRACT <lado>      Recolhe o umbilical
+UMBILICAL STOP <lado>         Interrompe a extensão/recolha
+OPEN AIRLOCK <lado>           Abre o airlock (risco para o suporte de vida)
+CLOSE AIRLOCK <lado>          Fecha o airlock
+  <lado> = STARBOARD | PORT
+
+CONTROLO MANUAL (F12, Esc sai)
++ / -                         Aumenta / diminui o motor principal
+← / →                         Rotação anti-horária / horária

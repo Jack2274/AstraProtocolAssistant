@@ -1,0 +1,17 @@
+# keywords: jump, teleport, hyperspace, fast travel, far, distance
+WARP JUMP
+Fold space to reach a distant point almost instantly.
+
+BEFORE YOU START
+- Check the reactor in ENGINEERING (F2): the warp puts a massive load on it.
+
+STEPS
+1. DISABLE AUTOPILOT          Avoid the autopilot moving the ship
+2. STABILIZE ALL              The ship must stay stationary
+3. WARP 10,10                 Start the warp drive to the coordinate
+4. INJECT COOLANT 20          (if needed) Cool the reactor while charging
+5. ABORT WARP                 (if needed) Cancel the jump
+
+WATCH
+- The warp takes some time to charge; do not move the ship meanwhile.
+- After the jump, an electromagnetic shock may disable systems for a while.

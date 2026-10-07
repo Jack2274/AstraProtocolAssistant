@@ -1,0 +1,15 @@
+# keywords: desatracar, sair da estação, deixar a estação, partir, partida, ir embora, soltar, liberar, desacoplar, desconectar, umbilical, câmara de ar, eclusa
+DESATRACAR
+Deixa uma estação com segurança após a atracação.
+
+PASSOS
+1. CLOSE AIRLOCK PORT         Fecha a passagem (protege o suporte de vida)
+2. UMBILICAL UNLOCK PORT      Solta as travas
+3. UMBILICAL RETRACT PORT     Recolhe o umbilical
+4. ABORT LINK                 Encerra o data link
+5. SET THRUSTERS -20          Afasta-se de lado (oposto à estação)
+6. STABILIZE ALL              Para a uma distância segura
+
+ATENÇÃO
+- Sempre UNLOCK antes de RETRACT, ou o umbilical pode romper.
+- Use o mesmo lado (PORT ou STARBOARD) usado na atracação.

@@ -1,0 +1,14 @@
+# keywords: míssil chegando, ameaça, míssil, mísseis, torpedo, desviar, esquivar, escapar, contramedida, proteger, proteção, defesa, defender, chaff
+DEFESA CONTRA MÍSSEIS
+Reage a mísseis se aproximando.
+
+PASSOS
+1. ENABLE LASERS              Disparo automático dos lasers
+2. SET LASER MODE MISSILES    Lasers miram o projétil mais próximo
+3. DROP CHAFF                 Contramedidas eletromagnéticas
+4. SET SHIELDS AFT 100        Reforça a face ameaçada
+
+ATENÇÃO
+- Faces: FORWARD, STARBOARD, PORT ou AFT. Use o radar de combate
+  no ORDNANCE (F4) para ver de onde vem a ameaça.
+- O chaff exige cargas no estoque.

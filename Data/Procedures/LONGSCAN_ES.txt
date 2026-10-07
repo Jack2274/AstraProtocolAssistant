@@ -1,0 +1,15 @@
+# keywords: explorar, exploración, buscar, encontrar, descubrir, sector, mapa, radar, largo alcance, coordenadas, escanear, cuerpos celestes, señales
+EXPLORACIÓN DE LARGO ALCANCE
+Encuentre cuerpos celestes, señales artificiales y estaciones en el sector.
+
+PASOS
+1. ENABLE RADIO               Enciende los escáneres de largo alcance
+2. SET RADIO 10000            Alcance del escáner
+3. LONG RANGE SCAN            Analiza el sector
+4. DISPLAY LONG RANGE SCAN    Muestra los resultados
+5. SCAN SPACECRAFT            (opcional) Naves cercanas y su distancia
+
+ATENCIÓN
+- Destino = coordenadas de la nave (HELM) + coordenadas del escaneo, sin
+  importar el rumbo. F7 (calculadora) hace la suma y copia el PLOT ROUTE.
+- Los escáneres suman carga al reactor; DISABLE RADIO si no los necesita.

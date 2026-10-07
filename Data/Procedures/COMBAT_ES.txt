@@ -1,0 +1,26 @@
+# keywords: atacar, ataque, pelear, luchar, combatir, batalla, disparar, enemigo, hostil, armas, matar, destruir, misiles, láseres, pelea
+ENTRAR EN COMBATE
+Prepare la nave y ataque una nave hostil.
+
+ANTES DE EMPEZAR
+- Revise la carga del reactor y la integridad del casco en ENGINEERING (F2).
+
+PASOS
+1. SCAN SPACECRAFT            Localiza las naves cercanas
+2. SET SHIELDS 100            Escudos a máxima potencia
+3. ENABLE LASERS              Disparo automático de láseres
+4. SET LASER MODE TARGET      Los láseres priorizan el objetivo actual
+5. TARGET SHIP                Fija la nave más cercana
+6. SCAN                       Esquemas del objetivo (se muestran en ORDNANCE)
+7. FIRE ALL                   Dispara todos los misiles cargados
+8. RELOAD ALL                 Recarga antes de la próxima andanada
+
+OPCIONAL
+- ENABLE SIGNAL JAMMERS       Interfiere las señales del objetivo
+- LAUNCH EMP                  Pulso que degrada la electrónica cercana
+
+ATENCIÓN
+- Escudos y láseres suman carga al reactor: vigile ENGINEERING (F2).
+- Los misiles persiguen al objetivo; revise la munición en ORDNANCE (F4).
+- El EMP afecta a todo aparato eléctrico en el pulso, quizá su propia nave:
+  no lo lance con el enemigo pegado a la nave (temporizador: 3 s).

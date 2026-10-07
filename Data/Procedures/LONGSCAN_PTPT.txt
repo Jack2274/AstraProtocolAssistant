@@ -1,0 +1,15 @@
+# keywords: explorar, procurar, encontrar, descobrir, setor, mapa, radar, longo alcance, coordenadas, reconhecimento, corpos celestes, sinais
+RECONHECIMENTO DE LONGO ALCANCE
+Encontra corpos celestes, sinais artificiais e estações no setor.
+
+PASSOS
+1. ENABLE RADIO               Liga os scanners de longo alcance
+2. SET RADIO 10000            Alcance do scanner
+3. LONG RANGE SCAN            Analisa o setor
+4. DISPLAY LONG RANGE SCAN    Mostra os resultados
+5. SCAN SPACECRAFT            (opcional) Naves próximas e a sua distância
+
+ATENÇÃO
+- Destino = coordenadas da nave (HELM) + coordenadas do scan, seja qual for
+  o rumo da nave. O F7 (calculadora) faz a soma e copia o PLOT ROUTE.
+- Os scanners somam carga ao reator; use DISABLE RADIO quando não precisar.

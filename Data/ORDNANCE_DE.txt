@@ -1,0 +1,43 @@
+# keywords: waffen, kampf, angriff, angreifen, kämpfen, schießen, feuern, rakete, raketen, torpedo, laser, mine, minen, düppel, störsender, jäger, drohnen, verteidigung, abwehr, munition, nachladen
+ORDNANCE (F4) - Kampf
+Schilde, Kampfradar, Munition (Raketen, Minen, Düppel), Zielerfassung,
+Laser, Nachladestatus der Torpedorohre und Zielschema.
+
+RAKETEN
+FIRE [ALL]                    Feuert alle geladenen Raketen
+FIRE <Seite> [ALL | Rohr]     Feuert eine Seite (oder ein Rohr)
+RELOAD [ALL]                  Lädt alle nach
+RELOAD <Seite> [ALL | Rohr]   Lädt eine Seite (oder ein Rohr) nach
+UNLOAD [ALL]                  Entlädt alle
+UNLOAD <Seite> [ALL | Rohr]   Entlädt eine Seite (oder ein Rohr)
+ABORT RELOAD [Seite | ALL]    Bricht laufendes Nachladen ab
+  <Seite> = FORWARD | STARBOARD | PORT
+
+LASER
+ENABLE LASERS                 Automatische Zielerfassung und Feuer ein
+DISABLE LASERS                Schaltet aus
+SET LASERS <%>                Laserleistung
+SET LASER MODE <Modus>        Priorität der automatischen Zielerfassung:
+  ASTEROIDS | CLOSEST | FIGHTERS | LIFEFORMS | MISSILES | TARGET
+
+GEGENMASSNAHMEN
+DROP CHAFF                    Wirft Düppel ab (elektromagnetische Abwehr)
+DROP MINE                     Legt eine Mine
+LAUNCH EMP [Zünder]           EMP-Impuls (Standardzünder 3 s)
+ENABLE SIGNAL JAMMERS         Stört die Signale des Ziels (braucht Ziel)
+DISABLE SIGNAL JAMMERS        Beendet das Stören
+
+JÄGER (KI-Drohnen)
+LAUNCH FIGHTERS [Hangar]      Startet Jäger (ohne Hangar = alle)
+RECALL FIGHTERS [Jäger]       Ruft Jäger zurück (ohne Nummer = alle)
+SET FIGHTER MODE <Modus> [Jäger]
+  CLOSEST | FIGHTERS | SHIPS | TARGET | IDLE (folgt Schiff, kein Angriff)
+
+SCHILDE
+SET SHIELDS [Seite] <%>       FORWARD | STARBOARD | PORT | AFT
+
+MANUELLE STEUERUNG (F12, Esc beendet)
+Num 0                         Laser umschalten
+Num 7 / 4 / 1                 Backbord-Rakete 1 / 2 / 3
+Num 9 / 6 / 3                 Steuerbord-Rakete 1 / 2 / 3
+Num 8 / 5                     Bug-Rakete 1 / 2

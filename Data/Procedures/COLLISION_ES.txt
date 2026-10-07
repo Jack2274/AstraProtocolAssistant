@@ -1,0 +1,18 @@
+# keywords: choque, chocar, colisión, impacto, asteroide, evitar, esquivar, evadir, obstáculo, alarma, estrellarse
+ALERTA DE COLISIÓN
+Reaccione cuando suene la alarma de colisión.
+
+PASOS
+1. TARGET COLLIDER            Fija lo que activó la alarma
+2. SCAN                       Identifica el objeto (asteroide, nave...)
+3. SET THRUSTERS 100          Esquiva lateral (o -100 hacia el otro lado)
+4. SET SHIELDS FORWARD 100    Refuerza la cara amenazada
+5. SET LASER MODE TARGET      (si es asteroide) Láseres sobre el objetivo
+6. ENABLE LASERS              Dispara al objeto
+7. STABILIZE ALL              Frena al salir de la trayectoria de colisión
+
+ATENCIÓN
+- No empiece con STABILIZE: detenerse no aparta la nave del camino.
+- El control manual (F12) de HELM no tiene empuje lateral: use SET THRUSTERS.
+- Use la cara (FORWARD, STARBOARD, PORT, AFT) de la que viene el objeto;
+  el radar de combate en ORDNANCE (F4) la muestra.

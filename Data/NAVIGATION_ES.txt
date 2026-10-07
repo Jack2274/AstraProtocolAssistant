@@ -1,0 +1,43 @@
+# keywords: navegación, navegar, ruta, camino, trayecto, punto de ruta, piloto automático, viajar, ir, mapa, coordenadas, salto, saltar, seguir, limitador, límite de velocidad, carta estelar, mapa estelar
+NAVIGATION (F5) - Navegación y piloto automático
+Mapa del sector, vista de corto alcance, brújula, estado y ruta del piloto auto.
+
+ATAJOS
+F9                            Alterna piloto automático
+F10 / F11                     Acercar / alejar zoom
+
+RUTA
+PLOT ROUTE <x,y>              Añade una coordenada a la ruta
+PLOT ROUTE TARGET             Añade la posición actual del objetivo
+REMOVE ROUTE [cantidad]       Quita el/los último(s) punto(s)
+CLEAR ROUTE                   Borra toda la ruta
+
+PILOTO AUTOMÁTICO
+ENABLE AUTOPILOT              Enciende
+DISABLE AUTOPILOT             Apaga
+SET AUTOPILOT ENGINES <valor>     Potencia de motores en piloto automático
+SET AUTOPILOT THRUSTERS <valor>   Potencia de propulsores
+SET AUTOPILOT RUDDER <valor>      Potencia del timón
+ENABLE LIMITER                Enciende el limitador de velocidad
+DISABLE LIMITER               Apaga el limitador
+SET LIMITER <velocidad>       Velocidad máxima del piloto automático
+FOLLOW [dist1] [dist2]        Sigue al objetivo (va hasta dist1, para en dist2)
+ABORT FOLLOW                  Deja de seguir
+
+WARP
+WARP <x,y>                    Salta a la coordenada (la nave debe estar quieta)
+ABORT WARP                    Desactiva el motor warp
+  Carga enorme al reactor; el impacto desactiva sistemas por un tiempo.
+
+MAPA
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (por defecto 1)
+SET ZOOM <%>                  Define el zoom
+RECENTRE                      Centra el mapa en la nave
+DISPLAY STARCHART             Carta estelar de los puntos descubiertos
+  Espacio = mostrar nombres   Tab = alterna el objeto resaltado
+
+CONTROLES MANUALES (F12, Esc sale)
+↑ ↓ ← →                       Mover cursor
+Enter                         Añade el punto a la ruta
+Backspace                     Quita el último punto
++ / -                         Acercar / alejar zoom

@@ -1,0 +1,43 @@
+# keywords: escanear, escaneo, escáner, sensor, sensores, detectar, encontrar, buscar, identificar, objetivo, blanco, fijar, sonda, planeta, señal, ruido, radar, mapa, reconocimiento, explorar, socorro, auxilio, baliza
+SCIENCE (F3) - Detección e identificación
+Mapa de largo alcance, vista de corto alcance, forma de onda de la señal más
+cercana, contador Geiger, sondas restantes y esquemas del objetivo.
+
+ATAJOS
+F9                            Escanear objetivo
+F10 / F11                     Acercar / alejar zoom
+
+OBJETIVO (solo a distancia del escáner de corto alcance)
+TARGET CLOSEST                Objetivo válido más cercano
+TARGET SHIP                   Nave espacial más cercana
+TARGET FIGHTER                Caza más cercano (incluye aliados)
+TARGET STATION                Estación espacial más cercana
+TARGET PLANET                 Cuerpo celeste más cercano
+TARGET ASTEROID               Escombros espaciales más cercanos
+TARGET LIFEFORMS              Materia biológica viva más cercana
+TARGET COLLIDER               Lo que activó la alerta de colisión
+TARGET CLEAR                  Borra el objetivo
+
+ESCÁNERES
+SCAN                          Escanea el objetivo actual
+SCAN SPACECRAFT               Naves cercanas y distancia relativa
+ABORT SCAN                    Cancela escaneos activos/pendientes
+LONG RANGE SCAN               Cuerpos celestes, señales artificiales, estaciones
+DISPLAY LONG RANGE SCAN       Últimos resultados (coordenadas relativas)
+DISPLAY DETAILS               Lectura científica del objetivo (←/→ páginas)
+LAUNCH PROBE                  Lanza una sonda (requiere una en stock)
+FILTER NOISE                  Filtra ruido (la nave debe estar estable)
+ABORT FILTER                  Detiene el filtrado
+ENABLE RADIO                  Enciende los escáneres de largo alcance
+DISABLE RADIO                 Apaga los escáneres de largo alcance
+SET RADIO <alcance>           Alcance del escáner de largo alcance
+
+MAPA
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (por defecto 1)
+SET ZOOM <%>                  Define el zoom
+RECENTRE                      Centra el mapa en la nave
+
+CONTROLES MANUALES (F12, Esc sale)
+↑ ↓ ← →                       Mover cursor
+Enter                         Fija el objetivo bajo el cursor
++ / -                         Acercar / alejar zoom

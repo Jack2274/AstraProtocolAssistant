@@ -1,0 +1,16 @@
+# keywords: sobrecalentamiento, recalentar, calor, temperatura, fusión del núcleo, enfriar, refrigerar, refrigerante, explotar, explosión, emergencia, reactor
+EMERGENCIA DEL REACTOR
+Baje la temperatura del reactor antes de una fusión del núcleo.
+
+PASOS
+1. INJECT COOLANT 20          Dosis pequeña: enfría más rápido
+2. SET LASERS 50              Reduce la potencia de los láseres
+3. SET SHIELDS 50             Reduce la potencia de los escudos
+4. DISABLE TRACTOR BEAM       Quita la carga del rayo tractor
+5. ABORT WARP                 Cancela un warp que se está cargando
+6. INJECT COOLANT 50          Dosis mayor: enfría durante más tiempo
+
+ATENCIÓN
+- La carga y temperatura del reactor se muestran en ENGINEERING (F2).
+- El refrigerante es limitado: revise el stock antes de inyectar.
+- Superar la temperatura máxima destruye la nave.

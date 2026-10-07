@@ -1,0 +1,15 @@
+# keywords: detener, parar, frenar, freno, alto, inmóvil, quieto, estabilizar, estabilización, detenerse, pararse, quedarse quieto, inercia
+DETENER LA NAVE
+Detenga la nave por completo. Con motores en 0 la nave sigue
+moviéndose (inercia): hay que estabilizarla.
+
+PASOS
+1. DISABLE AUTOPILOT          Puede anular los comandos manuales
+2. SET ENGINES 0              Motores principales apagados
+3. SET THRUSTERS 0            Motores laterales apagados
+4. SET RUDDER 0               Rotación apagada
+5. STABILIZE ALL              Cancela traslación y rotación
+
+ATENCIÓN
+- STABILIZE POSITION o STABILIZE ROTATION detienen solo una de las dos.
+- Activar el piloto automático sin ruta también estabiliza la nave.

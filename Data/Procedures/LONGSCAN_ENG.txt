@@ -1,0 +1,15 @@
+# keywords: explore, search, find, discover, sector, map, radar, long range, coordinates
+LONG RANGE SURVEY
+Find celestial bodies, artificial signals and stations in the sector.
+
+STEPS
+1. ENABLE RADIO               Turn on the long range scanners
+2. SET RADIO 10000            Scanner range
+3. LONG RANGE SCAN            Analyse the sector
+4. DISPLAY LONG RANGE SCAN    Show the results
+5. SCAN SPACECRAFT            (optional) Nearby ships and their distance
+
+WATCH
+- Destination = ship coordinates (HELM) + scan coordinates, whatever the
+  ship's heading. F7 (calculator) does the sum and copies PLOT ROUTE.
+- Scanners add load to the reactor; DISABLE RADIO when not needed.

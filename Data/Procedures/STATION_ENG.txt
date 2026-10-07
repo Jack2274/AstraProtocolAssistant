@@ -1,0 +1,21 @@
+# keywords: scan station, explore, investigate, inspect, approach
+INVESTIGATE A STATION
+Scan a space station, read its data and fly next to it.
+
+BEFORE YOU START
+- Open SCIENCE (F3). The station must be within short range scanner distance.
+
+STEPS
+1. TARGET STATION             Lock the nearest station
+2. SCAN                       Scan the target (or F9)
+3. DISPLAY DETAILS            Scientific readout (←/→ pages)
+4. PLOT ROUTE TARGET          Route to the station
+5. ENABLE AUTOPILOT           Approach the station
+6. STABILIZE ALL              Stop next to the station
+7. DISPLAY DOCKING HUD        Docking view (only in HELM, F1)
+
+WATCH
+- DISPLAY DETAILS only works in SCIENCE, and only for some objects.
+- DISPLAY DOCKING HUD only works in HELM: press F1 before step 7.
+- The autopilot does not manage the reactor: keep an eye on ENGINEERING (F2).
+- To dock, continue with Dock, repair and resupply from step 6 (DATA LINK).

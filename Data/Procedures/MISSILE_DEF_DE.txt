@@ -1,0 +1,14 @@
+# keywords: anfliegend, eingehend, rakete, raketen, torpedo, ausweichen, abwehr, abwehren, gegenmaßnahme, schützen, schutz, verteidigung, düppel, störsender
+RAKETEN ABWEHREN
+Reagiert auf anfliegende Raketen.
+
+SCHRITTE
+1. ENABLE LASERS              Automatisches Laserfeuer
+2. SET LASER MODE MISSILES    Laser zielen auf das nächste Projektil
+3. DROP CHAFF                 Elektromagnetische Gegenmaßnahmen
+4. SET SHIELDS AFT 100        Verstärkt die bedrohte Seite
+
+ACHTUNG
+- Seiten: FORWARD, STARBOARD, PORT oder AFT. Mit dem Kampfradar
+  in ORDNANCE (F4) sehen, woher die Bedrohung kommt.
+- Düppel müssen vorrätig sein.

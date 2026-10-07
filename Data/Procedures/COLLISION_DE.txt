@@ -1,0 +1,18 @@
+# keywords: kollision, zusammenstoß, aufprall, absturz, crash, asteroid, vermeiden, ausweichen, hindernis, warnung, alarm
+KOLLISIONSALARM
+Reagiert, wenn die Kollisionswarnung auslöst.
+
+SCHRITTE
+1. TARGET COLLIDER            Erfasst den Auslöser der Warnung
+2. SCAN                       Identifiziert das Objekt (Asteroid, Schiff...)
+3. SET THRUSTERS 100          Seitlich ausweichen (oder -100 zur anderen Seite)
+4. SET SHIELDS FORWARD 100    Verstärkt die bedrohte Seite
+5. SET LASER MODE TARGET      (bei Asteroid) Laser auf das Ziel
+6. ENABLE LASERS              Feuert auf das Objekt
+7. STABILIZE ALL              Anhalten, sobald außerhalb der Kollisionsbahn
+
+ACHTUNG
+- Nicht mit STABILIZE beginnen: Anhalten bringt das Schiff nicht aus dem Weg.
+- Manuelle Steuerung (F12) in HELM hat keinen Seitenschub: SET THRUSTERS nutzen.
+- Die Seite (FORWARD, STARBOARD, PORT, AFT) wählen, aus der das Objekt kommt;
+  das Kampfradar in ORDNANCE (F4) zeigt sie.

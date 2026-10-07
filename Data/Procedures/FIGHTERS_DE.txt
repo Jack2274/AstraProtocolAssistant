@@ -1,0 +1,16 @@
+# keywords: jäger, drohnen, drohnenjäger, staffel, geschwader, eskorte, begleitschutz, starten, aussetzen, zurückholen, zurückrufen, flügelmann, flügelmänner
+JÄGER EINSETZEN
+Startet die KI-Drohnenjäger, verfolgt sie und holt sie zurück.
+
+SCHRITTE
+1. SET FIGHTER MODE CLOSEST   Greift nächsten Feind an (vor Start setzen)
+2. LAUNCH FIGHTERS            Aus allen Hangars (oder einem: LAUNCH FIGHTERS 1)
+3. DISPLAY FIGHTER STATUS     Status verfolgen
+4. RECALL FIGHTERS            Holt sie zurück (braucht freien Hangar)
+
+MODI
+- CLOSEST, FIGHTERS, SHIPS, TARGET oder IDLE (folgt dem Schiff, kein Angriff).
+
+ACHTUNG
+- Jäger haben begrenzten Treibstoff: vor dem Leerlaufen zurückrufen.
+- Hangars werden in ENGINEERING (F2) angezeigt, Jäger in OPERATIONS (F6).

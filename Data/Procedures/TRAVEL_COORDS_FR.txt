@@ -1,0 +1,18 @@
+# keywords: aller à, se rendre, voyager, coordonnées, position, point de passage, route, itinéraire, trajet, pilote automatique, destination, naviguer
+ALLER À DES COORDONNÉES
+Faire passer le vaisseau par un ou plusieurs points en pilote automatique.
+
+ÉTAPES
+1. CLEAR ROUTE                Part d'une route vide
+2. PLOT ROUTE 500,100         Ajoute un point (répéter pour d'autres points)
+3. SET LIMITER 500            (optionnel) Vitesse max. du pilote automatique
+4. ENABLE LIMITER             (optionnel) Active le limiteur de vitesse
+5. ENABLE AUTOPILOT           Démarre le vol (ou F9 dans NAVIGATION)
+
+VARIANTE
+- Dans NAVIGATION (F5), appuyez sur F12 et utilisez les flèches + Enter pour
+  placer des points sur la carte ; Backspace retire le dernier point.
+
+ATTENTION
+- REMOVE ROUTE retire le dernier point en cas d'erreur.
+- Coordonnées de LONG RANGE SCAN relatives : ajoutez celles du vaisseau ou F7.

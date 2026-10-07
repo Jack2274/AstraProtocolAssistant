@@ -1,0 +1,21 @@
+# keywords: station, scanner station, explorer, enquêter, étudier, inspecter, examiner, analyser, approcher, s'approcher, données
+ÉTUDIER UNE STATION
+Scanner une station spatiale, lire ses données et s'en approcher.
+
+AVANT DE COMMENCER
+- Ouvrez SCIENCE (F3). La station doit être à portée du scanner courte portée.
+
+ÉTAPES
+1. TARGET STATION             Verrouille la station la plus proche
+2. SCAN                       Scanne la cible (ou F9)
+3. DISPLAY DETAILS            Analyse scientifique (pages ←/→)
+4. PLOT ROUTE TARGET          Route vers la station
+5. ENABLE AUTOPILOT           S'approche de la station
+6. STABILIZE ALL              S'arrête près de la station
+7. DISPLAY DOCKING HUD        Vue d'amarrage (HELM uniquement, F1)
+
+ATTENTION
+- DISPLAY DETAILS ne fonctionne que dans SCIENCE, et pour certains objets.
+- DISPLAY DOCKING HUD ne fonctionne que dans HELM : F1 avant l'étape 7.
+- Le pilote automatique ne gère pas le réacteur : surveillez ENGINEERING (F2).
+- Pour s'amarrer : S'amarrer, réparer et ravitailler, étape 6 (DATA LINK).

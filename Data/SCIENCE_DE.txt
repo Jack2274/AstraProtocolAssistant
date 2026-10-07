@@ -1,0 +1,43 @@
+# keywords: scannen, scan, sensor, sensoren, erkennen, finden, suchen, identifizieren, ziel, zielerfassung, sonde, planet, signal, rauschen, wellenform, radar, karte, erkundung, notruf, notsignal, funkfeuer
+SCIENCE (F3) - Erkennung und Identifikation
+Fernbereichskarte, Nahbereichsansicht, Wellenform des nächsten Signals,
+Geigerzähler, verbleibende Sonden und Zielschema.
+
+TASTENKÜRZEL
+F9                            Ziel scannen
+F10 / F11                     Hineinzoomen / herauszoomen
+
+ZIEL (nur in Reichweite des Nahbereichsscanners)
+TARGET CLOSEST                Nächstes gültiges Ziel
+TARGET SHIP                   Nächstes Raumschiff
+TARGET FIGHTER                Nächster Jäger (inkl. Verbündete)
+TARGET STATION                Nächste Raumstation
+TARGET PLANET                 Nächster Himmelskörper
+TARGET ASTEROID               Nächster Weltraumschrott
+TARGET LIFEFORMS              Nächste lebende biologische Materie
+TARGET COLLIDER               Auslöser der Kollisionswarnung
+TARGET CLEAR                  Löscht das Ziel
+
+SCANNER
+SCAN                          Scannt das aktuelle Ziel
+SCAN SPACECRAFT               Raumschiffe in der Nähe und relative Entfernung
+ABORT SCAN                    Bricht aktive/ausstehende Scans ab
+LONG RANGE SCAN               Himmelskörper, künstliche Signale, Stationen
+DISPLAY LONG RANGE SCAN       Letzte Ergebnisse (relative Koordinaten)
+DISPLAY DETAILS               Wissenschaftliche Zieldaten (←/→ Seiten)
+LAUNCH PROBE                  Startet eine Sonde (muss vorrätig sein)
+FILTER NOISE                  Filtert Rauschen (Schiff muss stillstehen)
+ABORT FILTER                  Beendet das Filtern
+ENABLE RADIO                  Schaltet die Fernbereichsscanner ein
+DISABLE RADIO                 Schaltet die Fernbereichsscanner aus
+SET RADIO <Reichweite>        Reichweite der Fernbereichsscanner
+
+KARTE
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (Standard 1)
+SET ZOOM <%>                  Setzt den Zoom
+RECENTRE                      Zentriert die Karte auf das Schiff
+
+MANUELLE STEUERUNG (F12, Esc beendet)
+↑ ↓ ← →                       Cursor bewegen
+Enter                         Ziel unter dem Cursor erfassen
++ / -                         Hineinzoomen / herauszoomen

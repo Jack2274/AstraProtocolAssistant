@@ -1,0 +1,15 @@
+# keywords: désamarrer, désamarrage, quitter la station, partir, départ, larguer, libérer, détacher, se détacher, ombilical, sas
+SE DÉSAMARRER
+Quitter une station en toute sécurité après l'amarrage.
+
+ÉTAPES
+1. CLOSE AIRLOCK PORT         Ferme le passage (protège le support vital)
+2. UMBILICAL UNLOCK PORT      Libère les pinces
+3. UMBILICAL RETRACT PORT     Rétracte l'ombilical
+4. ABORT LINK                 Met fin à la liaison de données
+5. SET THRUSTERS -20          S'éloigne latéralement (à l'opposé de la station)
+6. STABILIZE ALL              S'arrête à distance de sécurité
+
+ATTENTION
+- Toujours UNLOCK avant RETRACT, sinon l'ombilical peut se rompre.
+- Utilisez le même côté (PORT ou STARBOARD) que lors de l'amarrage.

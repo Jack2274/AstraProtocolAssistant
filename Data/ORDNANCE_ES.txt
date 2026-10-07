@@ -1,0 +1,43 @@
+# keywords: armas, armamento, combate, atacar, ataque, pelear, luchar, disparar, fuego, misil, misiles, torpedo, láser, mina, minas, señuelos, interferidor, inhibidor, cazas, drones, defensa, munición, balas
+ORDNANCE (F4) - Combate
+Escudos, radar de combate, munición (misiles, minas, chaff), fijación de
+objetivo, láseres, recarga de tubos de torpedo y esquemas del objetivo.
+
+MISILES
+FIRE [ALL]                    Dispara todos los misiles cargados
+FIRE <lado> [ALL | tubo]      Dispara un lado (o un tubo)
+RELOAD [ALL]                  Recarga todo
+RELOAD <lado> [ALL | tubo]    Recarga un lado (o un tubo)
+UNLOAD [ALL]                  Descarga todo
+UNLOAD <lado> [ALL | tubo]    Descarga un lado (o un tubo)
+ABORT RELOAD [lado | ALL]     Cancela recargas en curso
+  <lado> = FORWARD | STARBOARD | PORT
+
+LÁSERES
+ENABLE LASERS                 Activa apuntado y disparo automáticos
+DISABLE LASERS                Apaga
+SET LASERS <%>                Potencia de los láseres
+SET LASER MODE <modo>         Prioridad de apuntado automático:
+  ASTEROIDS | CLOSEST | FIGHTERS | LIFEFORMS | MISSILES | TARGET
+
+CONTRAMEDIDAS
+DROP CHAFF                    Suelta chaff (contramedida electromagnética)
+DROP MINE                     Suelta una mina
+LAUNCH EMP [espoleta]         Pulso EMP (espoleta por defecto 3 s)
+ENABLE SIGNAL JAMMERS         Interfiere las señales del objetivo (requiere uno)
+DISABLE SIGNAL JAMMERS        Detiene la interferencia
+
+CAZAS (drones con IA)
+LAUNCH FIGHTERS [hangar]      Lanza cazas (sin hangar = todos)
+RECALL FIGHTERS [caza]        Llama de vuelta a los cazas (sin número = todos)
+SET FIGHTER MODE <modo> [caza]
+  CLOSEST | FIGHTERS | SHIPS | TARGET | IDLE (sigue a la nave, no ataca)
+
+ESCUDOS
+SET SHIELDS [cara] <%>        FORWARD | STARBOARD | PORT | AFT
+
+CONTROLES MANUALES (F12, Esc sale)
+Num 0                         Alterna láseres
+Num 7 / 4 / 1                 Misil de babor 1 / 2 / 3
+Num 9 / 6 / 3                 Misil de estribor 1 / 2 / 3
+Num 8 / 5                     Misil frontal 1 / 2

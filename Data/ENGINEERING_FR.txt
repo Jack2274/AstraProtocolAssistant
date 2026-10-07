@@ -1,0 +1,30 @@
+# keywords: réacteur, chaleur, température, surchauffe, fusion, refroidir, refroidissement, liquide de refroidissement, boucliers, coque, dégâts, dommages, réparer, réparation, état, support vital, oxygène, radiation, radioactivité, rayon tracteur, autodestruction, urgence
+ENGINEERING (F2) - État du vaisseau
+Charge et température du réacteur, boucliers, coque, sas, ombilicaux, rayon
+tracteur, compteur Geiger, liquide de refroidissement et support vital.
+Surveillez le réacteur : la surcharge provoque surchauffe et explosion.
+
+RÉACTEUR
+INJECT COOLANT <quantité>     Injecte du liquide (litres) dans le réacteur
+DISPLAY DIAGNOSTICS           État de tous les composants et chasseurs
+
+BOUCLIERS
+SET SHIELDS [face] <%>        Puissance des boucliers (sans face = tous)
+ABORT RECHARGE SHIELDS [face] Annule la recharge des boucliers
+  [face] = FORWARD | STARBOARD | PORT | AFT (ALL avec ABORT)
+
+RAYON TRACTEUR
+ENABLE TRACTOR BEAM           Active (requiert une cible sélectionnée)
+DISABLE TRACTOR BEAM          Désactive
+REVERSE TRACTOR POLARITY      Alterne entre ATTRACT et REPEL
+
+URGENCE
+DISABLE ALL [NOW]             Désactive tous les systèmes (NOW = sans confirmer)
+SELF DESTRUCT                 Autodestruction (confirmer avec Y, 15 s)
+ABORT DESTRUCT                Tente d'annuler l'autodestruction
+
+AVERTISSEMENTS
+- Boucliers, lasers, moteurs et scanners augmentent la charge du réacteur.
+- Le WARP impose une charge énorme au réacteur.
+- Une radiation au-delà du seuil sûr perce le blindage (Geiger).
+- Un sas ouvert épuise le support vital.

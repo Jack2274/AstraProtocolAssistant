@@ -1,0 +1,21 @@
+# keywords: escanear estación, explorar, investigar, inspeccionar, examinar, acercarse, aproximarse, estación espacial, datos, estación
+INVESTIGAR UNA ESTACIÓN
+Escanee una estación espacial, lea sus datos y lleve la nave junto a ella.
+
+ANTES DE EMPEZAR
+- Abra SCIENCE (F3). La estación debe estar al alcance del escáner corto.
+
+PASOS
+1. TARGET STATION             Fija la estación más cercana
+2. SCAN                       Escanea el objetivo (o F9)
+3. DISPLAY DETAILS            Lectura científica (←/→ páginas)
+4. PLOT ROUTE TARGET          Ruta hasta la estación
+5. ENABLE AUTOPILOT           Se acerca a la estación
+6. STABILIZE ALL              Se detiene junto a la estación
+7. DISPLAY DOCKING HUD        Vista de acoplamiento (solo en HELM, F1)
+
+ATENCIÓN
+- DISPLAY DETAILS solo funciona en SCIENCE, y solo con algunos objetos.
+- DISPLAY DOCKING HUD solo funciona en HELM: pulse F1 antes del paso 7.
+- El piloto automático no gestiona el reactor: vigile ENGINEERING (F2).
+- Para acoplarse: Acoplarse, reparar y reabastecer, paso 6 (DATA LINK).

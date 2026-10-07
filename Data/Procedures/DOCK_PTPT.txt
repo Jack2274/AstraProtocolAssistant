@@ -1,0 +1,23 @@
+# keywords: acoplar, acoplagem, atracar, reparar, reparação, arranjar, consertar, dano, reabastecer, abastecer, combustível, mantimentos, munições, sobreviventes, estação, doca, umbilical, câmara de vácuo
+ACOPLAR, REPARAR E REABASTECER
+Liga a nave a uma estação para reabastecer, reparar e reportar sobreviventes.
+
+PASSOS
+1. TARGET STATION             Fixa a estação mais próxima
+2. PLOT ROUTE TARGET          Rota até à estação
+3. ENABLE AUTOPILOT           Aproxima-se da estação
+4. STABILIZE ALL              Para junto à estação
+5. DISPLAY DOCKING HUD        Vista de acoplagem (só no HELM)
+6. DATA LINK                  Liga-se à estação (ambos têm de aceitar)
+7. REQUEST DOCK               Pede autorização para acoplar
+8. UMBILICAL ANGLE PORT 15    (opcional) Ângulo do umbilical, recolhido
+9. UMBILICAL EXTEND PORT      Estende o umbilical até ao airlock
+10. UMBILICAL LOCK PORT       Prende-o ao airlock da estação
+11. OPEN AIRLOCK PORT         Abre a passagem
+12. REQUEST RESUPPLY          Reabastece de material
+13. REQUEST DRYDOCK           (se necessário) Repara a nave
+
+ATENÇÃO
+- Use o lado (PORT ou STARBOARD) virado para o airlock da estação;
+  o DOCKING HUD mostra o airlock mais próximo.
+- Mantenha a nave parada enquanto presa: movimento a mais corta o umbilical.

@@ -1,0 +1,18 @@
+# keywords: hinfliegen, fliegen, reisen, koordinaten, position, punkt, wegpunkt, route, autopilot, ziel, zielort, kurs setzen
+ZU KOORDINATEN FLIEGEN
+Fliegt das Schiff mit dem Autopiloten über einen oder mehrere Punkte.
+
+SCHRITTE
+1. CLEAR ROUTE                Mit einer leeren Route beginnen
+2. PLOT ROUTE 500,100         Fügt einen Punkt hinzu (für mehr wiederholen)
+3. SET LIMITER 500            (optional) Höchsttempo des Autopiloten
+4. ENABLE LIMITER             (optional) Schaltet den Tempobegrenzer ein
+5. ENABLE AUTOPILOT           Startet den Flug (oder F9 in NAVIGATION)
+
+ALTERNATIVE
+- In NAVIGATION (F5) F12 drücken und mit Pfeilen + Enter Punkte auf der Karte
+  setzen; Backspace entfernt den letzten Punkt.
+
+ACHTUNG
+- REMOVE ROUTE entfernt bei einem Fehler den letzten Punkt.
+- LONG RANGE SCAN ist relativ: Schiffskoordinaten addieren oder F7 nutzen.

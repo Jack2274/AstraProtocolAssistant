@@ -1,0 +1,16 @@
+# keywords: chasseurs, drones, escadrille, escadron, escorte, lancer, lancement, rappeler, rappel, ailiers, appui
+UTILISER LES CHASSEURS
+Lancer les drones chasseurs IA, les suivre et les ramener.
+
+ÉTAPES
+1. SET FIGHTER MODE CLOSEST   Attaque l'ennemi le plus proche (avant lancement)
+2. LAUNCH FIGHTERS            Toutes les baies (ou une : LAUNCH FIGHTERS 1)
+3. DISPLAY FIGHTER STATUS     Suit leur état
+4. RECALL FIGHTERS            Les ramène (requiert une baie libre)
+
+MODES
+- CLOSEST, FIGHTERS, SHIPS, TARGET ou IDLE (suit le vaisseau, sans attaque).
+
+ATTENTION
+- Carburant limité : rappelez les chasseurs avant qu'il ne s'épuise.
+- Baies dans ENGINEERING (F2) ; chasseurs dans OPERATIONS (F6).

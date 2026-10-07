@@ -1,0 +1,18 @@
+# keywords: ir a, viajar, coordenadas, posición, ubicación, punto de ruta, ruta, trayecto, piloto automático, destino, llegar, navegar
+VIAJAR A COORDENADAS
+Lleve la nave por uno o más puntos con el piloto automático.
+
+PASOS
+1. CLEAR ROUTE                Empieza con una ruta vacía
+2. PLOT ROUTE 500,100         Añade un punto (repita para más puntos)
+3. SET LIMITER 500            (opcional) Velocidad máx. del piloto automático
+4. ENABLE LIMITER             (opcional) Activa el límite de velocidad
+5. ENABLE AUTOPILOT           Inicia el vuelo (o F9 en NAVIGATION)
+
+ALTERNATIVA
+- En NAVIGATION (F5), pulse F12 y use las flechas + Enter para marcar puntos
+  en el mapa; Backspace quita el último punto.
+
+ATENCIÓN
+- REMOVE ROUTE quita el último punto si se equivocó.
+- LONG RANGE SCAN da coordenadas relativas: súmelas a las de la nave o use F7.

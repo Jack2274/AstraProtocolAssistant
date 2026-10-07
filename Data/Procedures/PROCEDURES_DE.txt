@@ -1,0 +1,18 @@
+# Betriebsverfahren: ID|Titel
+# Die ID ist das Dateipräfix jedes Verfahrens (TRAVEL_TARGET_DE.txt, ...).
+# Reihenfolge der Schritte nach dem offiziellen Handbuch und Spielerguides.
+TRAVEL_TARGET|Zu einem Ziel fliegen
+TRAVEL_COORDS|Zu Koordinaten fliegen
+FOLLOW|Einem Schiff folgen
+STOP|Schiff anhalten
+WARP|Warpsprung
+DOCK|Andocken, reparieren und versorgen
+UNDOCK|Abdocken
+PLANET|Einen Planeten untersuchen
+STATION|Eine Station untersuchen
+LONGSCAN|Fernbereichserkundung
+COMBAT|In den Kampf gehen
+MISSILE_DEF|Raketen abwehren
+COLLISION|Kollisionsalarm
+FIGHTERS|Jäger einsetzen
+REACTOR|Reaktornotfall

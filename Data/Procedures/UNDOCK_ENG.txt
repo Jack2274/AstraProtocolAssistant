@@ -1,0 +1,15 @@
+# keywords: leave station, depart, release, detach, umbilical, airlock
+UNDOCK
+Leave a station safely after docking.
+
+STEPS
+1. CLOSE AIRLOCK PORT         Close the passage (protects life support)
+2. UMBILICAL UNLOCK PORT      Release the clamps
+3. UMBILICAL RETRACT PORT     Retract the umbilical
+4. ABORT LINK                 End the data link
+5. SET THRUSTERS -20          Move away sideways (opposite to the station)
+6. STABILIZE ALL              Stop at a safe distance
+
+WATCH
+- Always UNLOCK before RETRACT, or the umbilical may sever.
+- Use the same side (PORT or STARBOARD) used when docking.

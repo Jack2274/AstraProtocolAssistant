@@ -1,0 +1,16 @@
+# keywords: caças, drones, esquadrilha, esquadrão, escolta, lançar, recolher, chamar de volta, alas, apoio aéreo
+USAR CAÇAS
+Lança os caças drone IA, acompanha-os e recolhe-os.
+
+PASSOS
+1. SET FIGHTER MODE CLOSEST   Ataca o inimigo mais próximo (antes de lançar)
+2. LAUNCH FIGHTERS            Lança de todas as baias (uma: LAUNCH FIGHTERS 1)
+3. DISPLAY FIGHTER STATUS     Acompanha o estado dos caças
+4. RECALL FIGHTERS            Recolhe-os (requer uma baia livre)
+
+MODOS
+- CLOSEST, FIGHTERS, SHIPS, TARGET ou IDLE (segue a nave, não ataca).
+
+ATENÇÃO
+- Os caças têm combustível limitado: recolha-os antes de se esgotar.
+- As baias aparecem no ENGINEERING (F2); os caças no OPERATIONS (F6).

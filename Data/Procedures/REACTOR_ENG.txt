@@ -1,0 +1,16 @@
+# keywords: overheat, heat, temperature, meltdown, cool, coolant, explode, emergency
+REACTOR EMERGENCY
+Bring the reactor temperature down before a meltdown.
+
+STEPS
+1. INJECT COOLANT 20          Small dose: cools faster
+2. SET LASERS 50              Reduce laser power
+3. SET SHIELDS 50             Reduce shield power
+4. DISABLE TRACTOR BEAM       Remove the tractor beam load
+5. ABORT WARP                 Cancel a warp that is charging
+6. INJECT COOLANT 50          Larger dose: cools for longer
+
+WATCH
+- Reactor load and temperature are shown in ENGINEERING (F2).
+- Coolant is limited: check the stock before injecting.
+- Exceeding the maximum temperature destroys the ship.

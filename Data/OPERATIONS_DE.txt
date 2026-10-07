@@ -1,0 +1,37 @@
+# keywords: mission, auftrag, logbuch, kapitän, übertragung, nachricht, funkspruch, speichern, laden, pause, pausieren, kürzel, abkürzung, einstellungen, hilfe, beenden, verlassen, befehlszeile, kommandozeile
+OPERATIONS (F6) - Mission und Logbuch
+Missionsstatus, Jäger, Logbuch des Captains und empfangene Übertragungen.
+
+ÜBERTRAGUNGEN UND JÄGER
+DISPLAY TRANSMISSION          Letzte Übertragung (←/→ Seiten)
+DISPLAY FIGHTER STATUS [n]    Status eines Jägers (ohne n = alle)
+
+LOGBUCH DES CAPTAINS
+LOG [Eintrag]                 Bearbeitet einen Eintrag (ohne Nummer = neu)
+  F9 bearbeiten · F10 abbrechen · F11 speichern · F12 vorlesen
+
+SYSTEM
+PAUSE                         Pausiert
+UNPAUSE / CONTINUE            Setzt fort
+SAVE                          Speichert die Mission
+LOAD                          Lädt eine Mission
+ALIAS <Alias> / <Befehl>      Erstellt ein Kürzel (ohne Befehl = entfernt)
+  z. B. ALIAS FULL SHIELDS / SET SHIELDS 100
+SAVE ALIASES / LOAD ALIASES   Speichert / lädt die Kürzel
+MANUAL OVERRIDE               Manuelle Bildschirmsteuerung (wie F12)
+SETTINGS                      Einstellungen (F1-F4 Kategorien, Esc beendet)
+HELP                          Kurze Befehlsliste (←/→ Seiten)
+DISPLAY CREDITS               Mitwirkende
+SHUTDOWN                      Fährt das Terminal herunter
+
+BEFEHLSZEILE
+Tab                           Autovervollständigung
+↑ / ↓                         Befehlsverlauf
+HELM, SCIENCE... + Enter      Bildschirmnamen tippen öffnet ihn
+F12                           Manuelle Steuerung
+Esc                           Verlässt Unterbildschirm / manuelle Steuerung
+
+MANUELLE STEUERUNG (F12, Esc beendet)
+↑ / ↓                         Durch die Liste bewegen
+Tab                           Wechselt Logbuch / Übertragungen
+Enter                         Öffnet das gewählte Element

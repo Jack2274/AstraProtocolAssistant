@@ -1,0 +1,18 @@
+# keywords: ir para, ir até, viajar, voar até, deslocar, navegar, aproximar, aproximação, piloto automático, destino, alvo, objeto, chegar
+VIAJAR ATÉ UM ALVO
+Leva a nave até um objeto com o piloto automático.
+
+ANTES DE COMEÇAR
+- O alvo tem de estar ao alcance do scanner de curto alcance.
+
+PASSOS
+1. TARGET STATION             Fixa o alvo (ou SHIP, PLANET, CLOSEST...)
+2. PLOT ROUTE TARGET          Adiciona a posição do alvo à rota
+3. SET LIMITER 500            (opcional) Velocidade máxima do piloto automático
+4. ENABLE LIMITER             (opcional) Liga o limite de velocidade
+5. ENABLE AUTOPILOT           Inicia o voo (ou F9 no NAVIGATION)
+
+ATENÇÃO
+- O piloto automático não gere o reator: vigie o ENGINEERING (F2).
+- PLOT ROUTE TARGET guarda a posição uma só vez. Para um alvo em movimento,
+  use FOLLOW <dist1> <dist2> com o piloto automático ligado.

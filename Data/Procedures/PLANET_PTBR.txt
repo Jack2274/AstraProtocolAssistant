@@ -1,0 +1,18 @@
+# keywords: sobreviventes, sonda, explorar, escanear planeta, investigar, examinar, resgatar, resgate, salvar, procurar, buscar, busca, planeta, superfície
+INVESTIGAR UM PLANETA
+Escaneia um planeta e lança uma sonda para procurar sobreviventes.
+
+ANTES DE COMEÇAR
+- Abra o SCIENCE (F3). O planeta precisa estar no alcance do scanner curto.
+
+PASSOS
+1. TARGET PLANET              Trava o corpo celeste mais próximo
+2. SCAN                       Escaneia o alvo (ou F9)
+3. DISPLAY DETAILS            Leitura científica (←/→ páginas)
+4. LAUNCH PROBE               Envia sonda p/ dados que o scanner não obtém
+5. DISPLAY DETAILS            Lê os resultados de novo
+
+ATENÇÃO
+- Cada sonda é consumida; o número restante aparece no SCIENCE.
+- Se o sinal tiver ruído: STABILIZE ALL, depois FILTER NOISE.
+- Relate sobreviventes na estação (veja Atracar, reparar e reabastecer).

@@ -1,0 +1,15 @@
+# keywords: explorar, procurar, buscar, encontrar, achar, descobrir, setor, mapa, radar, longo alcance, longa distância, varredura, escanear, coordenadas, sinais, corpos celestes
+VARREDURA DE LONGO ALCANCE
+Encontra corpos celestes, sinais artificiais e estações no setor.
+
+PASSOS
+1. ENABLE RADIO               Liga os scanners de longo alcance
+2. SET RADIO 10000            Alcance do scanner
+3. LONG RANGE SCAN            Analisa o setor
+4. DISPLAY LONG RANGE SCAN    Mostra os resultados
+5. SCAN SPACECRAFT            (opcional) Naves próximas e distância
+
+ATENÇÃO
+- Destino = coordenadas da nave (HELM) + coordenadas do scan, seja qual for
+  o rumo da nave. O F7 (calculadora) faz a soma e copia o PLOT ROUTE.
+- Scanners somam carga no reator; use DISABLE RADIO quando não precisar.

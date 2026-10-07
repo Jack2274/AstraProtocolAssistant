@@ -1,0 +1,13 @@
+# Saídas do build e da publicação (podem ser geradas de novo a qualquer momento)
+bin/
+obj/
+publish/
+publish-lite/
+Releases/
+
+# Manual oficial do jogo: pertence à Slice Bar Games e não deve ser redistribuído
+Docs/*.pdf
+
+# Configurações locais do Visual Studio
+.vs/
+*.user

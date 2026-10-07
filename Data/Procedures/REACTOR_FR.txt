@@ -1,0 +1,16 @@
+# keywords: réacteur, surchauffe, chaleur, température, fusion, refroidir, refroidissement, liquide de refroidissement, exploser, explosion, urgence
+URGENCE RÉACTEUR
+Faire baisser la température du réacteur avant la fusion.
+
+ÉTAPES
+1. INJECT COOLANT 20          Petite dose : refroidit plus vite
+2. SET LASERS 50              Réduit la puissance des lasers
+3. SET SHIELDS 50             Réduit la puissance des boucliers
+4. DISABLE TRACTOR BEAM       Supprime la charge du rayon tracteur
+5. ABORT WARP                 Annule un warp en cours de charge
+6. INJECT COOLANT 50          Dose plus forte : refroidit plus longtemps
+
+ATTENTION
+- Charge et température du réacteur sont affichées dans ENGINEERING (F2).
+- Le liquide de refroidissement est limité : vérifiez le stock avant.
+- Dépasser la température maximale détruit le vaisseau.

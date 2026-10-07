@@ -1,0 +1,23 @@
+# keywords: amarrer, amarrage, s'amarrer, réparer, réparation, dégâts, dommages, ravitailler, ravitaillement, carburant, provisions, munitions, survivants, station, cale sèche, ombilical, sas
+S'AMARRER, RÉPARER ET RAVITAILLER
+Se relier à une station : ravitaillement, réparations, rapport des survivants.
+
+ÉTAPES
+1. TARGET STATION             Verrouille la station la plus proche
+2. PLOT ROUTE TARGET          Route vers la station
+3. ENABLE AUTOPILOT           Approche de la station
+4. STABILIZE ALL              S'arrête à côté de la station
+5. DISPLAY DOCKING HUD        Vue d'amarrage (HELM uniquement)
+6. DATA LINK                  Liaison avec la station (accord des deux)
+7. REQUEST DOCK               Demande l'autorisation d'amarrage
+8. UMBILICAL ANGLE PORT 15    (optionnel) Angle de l'ombilical, rétracté
+9. UMBILICAL EXTEND PORT      Déploie l'ombilical jusqu'au sas
+10. UMBILICAL LOCK PORT       Verrouille sur le sas de la station
+11. OPEN AIRLOCK PORT         Ouvre le passage
+12. REQUEST RESUPPLY          Ravitaillement en matériel
+13. REQUEST DRYDOCK           (si besoin) Répare le vaisseau
+
+ATTENTION
+- Utilisez le côté (PORT ou STARBOARD) face au sas de la station ;
+  le DOCKING HUD indique le sas le plus proche.
+- Restez immobile une fois verrouillé : trop de mouvement rompt l'ombilical.

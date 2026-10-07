@@ -1,0 +1,18 @@
+# keywords: go to, travel, fly to, move to, navigate, approach, autopilot, destination
+TRAVEL TO A TARGET
+Fly the ship to an object using the autopilot.
+
+BEFORE YOU START
+- The target must be within short range scanner distance.
+
+STEPS
+1. TARGET STATION             Lock the target (or SHIP, PLANET, CLOSEST...)
+2. PLOT ROUTE TARGET          Add the target's position to the route
+3. SET LIMITER 500            (optional) Maximum autopilot speed
+4. ENABLE LIMITER             (optional) Turn the speed limit on
+5. ENABLE AUTOPILOT           Start flying (or F9 in NAVIGATION)
+
+WATCH
+- The autopilot does not manage the reactor: keep an eye on ENGINEERING (F2).
+- PLOT ROUTE TARGET stores the position once. For a moving target,
+  use FOLLOW <dist1> <dist2> with the autopilot on.

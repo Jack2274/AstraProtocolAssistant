@@ -1,0 +1,21 @@
+# keywords: station, raumstation, station scannen, scannen, erkunden, erforschen, untersuchen, inspizieren, prüfen, anfliegen, annähern, daten
+EINE STATION UNTERSUCHEN
+Scannt eine Raumstation, liest ihre Daten und fliegt an sie heran.
+
+VOR DEM START
+- SCIENCE (F3) öffnen. Station muss in Reichweite des Nahbereichsscanners sein.
+
+SCHRITTE
+1. TARGET STATION             Erfasst die nächste Station
+2. SCAN                       Scannt das Ziel (oder F9)
+3. DISPLAY DETAILS            Wissenschaftliche Daten (←/→ Seiten)
+4. PLOT ROUTE TARGET          Route zur Station
+5. ENABLE AUTOPILOT           Nähert sich der Station
+6. STABILIZE ALL              Hält neben der Station an
+7. DISPLAY DOCKING HUD        Andock-Ansicht (nur in HELM, F1)
+
+ACHTUNG
+- DISPLAY DETAILS funktioniert nur in SCIENCE und nur bei manchen Objekten.
+- DISPLAY DOCKING HUD funktioniert nur in HELM: vor Schritt 7 F1 drücken.
+- Der Autopilot steuert den Reaktor nicht: ENGINEERING (F2) im Auge behalten.
+- Zum Andocken ab Schritt 6 (DATA LINK): Andocken, reparieren und versorgen.

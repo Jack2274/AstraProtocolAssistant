@@ -1,0 +1,9 @@
+# Idiomas disponíveis: CÓDIGO|Nome exibido
+# O código é o sufixo dos arquivos de cada idioma (HELM_ENG.txt, UI_PTBR.txt, ...).
+ENG|English
+PTBR|Português (Brasil)
+PTPT|Português (Portugal)
+ES|Español
+FR|Français
+DE|Deutsch
+RU|Русский

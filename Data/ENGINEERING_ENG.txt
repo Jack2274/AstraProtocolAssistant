@@ -1,0 +1,30 @@
+# keywords: reactor, heat, temperature, overheat, meltdown, coolant, cool, shields, hull, damage, repair, status, life support, radiation, tractor, self destruct, emergency
+ENGINEERING (F2) - Ship status
+Reactor load and temperature, shields, hull, airlocks, umbilicals, tractor beam,
+Geiger counter, coolant and life support.
+Watch the reactor: overloading causes overheating and explosive failure.
+
+REACTOR
+INJECT COOLANT <amount>       Injects coolant (litres) into the reactor
+DISPLAY DIAGNOSTICS           Status of all components and fighters
+
+SHIELDS
+SET SHIELDS [face] <%>        Shield power (no face = all shields)
+ABORT RECHARGE SHIELDS [face] Cancels shield recharging
+  [face] = FORWARD | STARBOARD | PORT | AFT (ALL on ABORT)
+
+TRACTOR BEAM
+ENABLE TRACTOR BEAM           Turns on (needs a selected target)
+DISABLE TRACTOR BEAM          Turns off
+REVERSE TRACTOR POLARITY      Switches between ATTRACT and REPEL
+
+EMERGENCY
+DISABLE ALL [NOW]             Disables all systems (NOW = no confirmation)
+SELF DESTRUCT                 Self-destruct (confirm with Y, 15 s)
+ABORT DESTRUCT                Attempts to cancel self-destruct
+
+WARNINGS
+- Shields, lasers, engines and scanners all add reactor load.
+- WARP puts a massive load on the reactor.
+- Radiation above safe levels breaches the shielding (Geiger).
+- An open airlock drains life support.

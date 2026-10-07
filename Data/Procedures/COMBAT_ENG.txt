@@ -1,0 +1,26 @@
+# keywords: attack, fight, battle, shoot, enemy, hostile, weapons, kill, missiles, lasers
+ENGAGE IN COMBAT
+Prepare the ship and attack a hostile ship.
+
+BEFORE YOU START
+- Check reactor load and hull integrity in ENGINEERING (F2).
+
+STEPS
+1. SCAN SPACECRAFT            Locate nearby ships
+2. SET SHIELDS 100            Shields at full power
+3. ENABLE LASERS              Automatic laser fire
+4. SET LASER MODE TARGET      Lasers prioritise the current target
+5. TARGET SHIP                Lock the nearest ship
+6. SCAN                       Target schematics (shown in ORDNANCE)
+7. FIRE ALL                   Fire all loaded missiles
+8. RELOAD ALL                 Reload before the next volley
+
+OPTIONAL
+- ENABLE SIGNAL JAMMERS       Jam the target's signals
+- LAUNCH EMP                  Pulse that degrades nearby electronics
+
+WATCH
+- Shields and lasers add load to the reactor: watch ENGINEERING (F2).
+- Missiles home in on the target; check the ammunition in ORDNANCE (F4).
+- The EMP hits every electrical device within the pulse, maybe your own ship:
+  do not launch it with the enemy right next to you (default fuse: 3 s).

@@ -1,0 +1,18 @@
+# keywords: folgen, verfolgen, jagen, nachfliegen, hinterherfliegen, beschatten, eskortieren, begleiten, geleitschutz, autopilot
+EINEM SCHIFF FOLGEN
+Verfolgt ein bewegtes Schiff mit dem Autopiloten.
+
+VOR DEM START
+- Das Schiff muss in Reichweite des Nahbereichsscanners sein.
+
+SCHRITTE
+1. TARGET SHIP                Erfasst das nächste Schiff (Jäger: FIGHTER)
+2. FOLLOW 100 200             Folgen: nähert sich auf 100, stoppt bei 200
+3. ENABLE AUTOPILOT           Startet die Verfolgung (oder F9 in NAVIGATION)
+4. ABORT FOLLOW               Verfolgung jederzeit beenden
+
+ACHTUNG
+- TARGET SHIP erfasst das nächste Schiff, das feindlich sein kann.
+- Ohne Argumente nutzt FOLLOW die Standardabstände des Spiels;
+  Werte an das Ziel anpassen.
+- Der Autopilot steuert den Reaktor nicht: ENGINEERING (F2) im Auge behalten.

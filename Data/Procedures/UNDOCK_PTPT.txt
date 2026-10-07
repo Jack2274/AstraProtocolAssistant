@@ -1,0 +1,15 @@
+# keywords: desacoplar, desacoplagem, sair da estação, partir, partida, largar, soltar, separar, desatracar, umbilical, câmara de vácuo
+DESACOPLAR
+Sai de uma estação em segurança após a acoplagem.
+
+PASSOS
+1. CLOSE AIRLOCK PORT         Fecha a passagem (protege o suporte de vida)
+2. UMBILICAL UNLOCK PORT      Solta as braçadeiras
+3. UMBILICAL RETRACT PORT     Recolhe o umbilical
+4. ABORT LINK                 Termina o data link
+5. SET THRUSTERS -20          Afasta-se de lado (para o lado oposto à estação)
+6. STABILIZE ALL              Para a uma distância segura
+
+ATENÇÃO
+- Faça sempre UNLOCK antes de RETRACT, ou o umbilical pode partir-se.
+- Use o mesmo lado (PORT ou STARBOARD) usado na acoplagem.

@@ -1,0 +1,14 @@
+# keywords: misil entrante, misiles, misil, torpedo, esquivar, evadir, contramedidas, proteger, protegerse, defensa, defenderse, señuelos
+DEFENDERSE DE MISILES
+Reaccione ante misiles entrantes.
+
+PASOS
+1. ENABLE LASERS              Disparo automático de láseres
+2. SET LASER MODE MISSILES    Los láseres apuntan al proyectil más cercano
+3. DROP CHAFF                 Contramedidas electromagnéticas
+4. SET SHIELDS AFT 100        Refuerza la cara amenazada
+
+ATENCIÓN
+- Caras: FORWARD, STARBOARD, PORT o AFT. Use el radar de combate
+  en ORDNANCE (F4) para ver de dónde viene la amenaza.
+- El chaff requiere cargas en stock.

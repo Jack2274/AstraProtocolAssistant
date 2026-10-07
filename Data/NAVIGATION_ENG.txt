@@ -1,0 +1,43 @@
+# keywords: navigation, route, path, waypoint, autopilot, travel, go, map, coordinates, warp, jump, follow, limiter, speed limit, starchart
+NAVIGATION (F5) - Navigation and autopilot
+Sector map, short range view, compass, autopilot status and route.
+
+HOTKEYS
+F9                            Toggle autopilot
+F10 / F11                     Zoom in / zoom out
+
+ROUTE
+PLOT ROUTE <x,y>              Appends a coordinate to the route
+PLOT ROUTE TARGET             Appends the target's current position
+REMOVE ROUTE [count]          Removes the last point(s)
+CLEAR ROUTE                   Clears the whole route
+
+AUTOPILOT
+ENABLE AUTOPILOT              Turns on
+DISABLE AUTOPILOT             Turns off
+SET AUTOPILOT ENGINES <value>     Engine rate under autopilot
+SET AUTOPILOT THRUSTERS <value>   Thruster rate
+SET AUTOPILOT RUDDER <value>      Rudder rate
+ENABLE LIMITER                Turns on the speed limiter
+DISABLE LIMITER               Turns off the limiter
+SET LIMITER <speed>           Autopilot maximum speed
+FOLLOW [dist1] [dist2]        Follows target (move within dist1, stop at dist2)
+ABORT FOLLOW                  Stops following
+
+WARP
+WARP <x,y>                    Warps to the coordinate (ship must be still)
+ABORT WARP                    Disengages the warp drive
+  Massive reactor load; the shock disables systems for a while.
+
+MAP
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (default 1)
+SET ZOOM <%>                  Sets the zoom
+RECENTRE                      Centres the map on the ship
+DISPLAY STARCHART             Star chart of discovered points
+  Space = toggle names   Tab = cycle highlighted object
+
+MANUAL CONTROLS (F12, Esc exits)
+↑ ↓ ← →                       Move cursor
+Enter                         Plot point into the route
+Backspace                     Remove the last point
++ / -                         Zoom in / zoom out

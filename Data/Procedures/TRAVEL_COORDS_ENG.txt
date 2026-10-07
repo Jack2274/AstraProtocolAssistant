@@ -1,0 +1,18 @@
+# keywords: go to, travel, coordinates, position, waypoint, route, autopilot, destination
+TRAVEL TO COORDINATES
+Fly the ship through one or more points using the autopilot.
+
+STEPS
+1. CLEAR ROUTE                Start from an empty route
+2. PLOT ROUTE 500,100         Add a point (repeat for more points)
+3. SET LIMITER 500            (optional) Maximum autopilot speed
+4. ENABLE LIMITER             (optional) Turn the speed limit on
+5. ENABLE AUTOPILOT           Start flying (or F9 in NAVIGATION)
+
+ALTERNATIVE
+- In NAVIGATION (F5), press F12 and use the arrows + Enter to plot points
+  on the map; Backspace removes the last point.
+
+WATCH
+- REMOVE ROUTE removes the last point if you made a mistake.
+- LONG RANGE SCAN coordinates are relative: add the ship's or use F7.

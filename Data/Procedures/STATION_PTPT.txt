@@ -1,0 +1,21 @@
+# keywords: estação, analisar estação, explorar, investigar, inspecionar, examinar, aproximar, ler dados, dados da estação, estação espacial
+INVESTIGAR UMA ESTAÇÃO
+Analisa uma estação espacial, lê os dados dela e leva a nave até ela.
+
+ANTES DE COMEÇAR
+- Abra o SCIENCE (F3). A estação tem de estar dentro do curto alcance.
+
+PASSOS
+1. TARGET STATION             Fixa a estação mais próxima
+2. SCAN                       Analisa o alvo (ou F9)
+3. DISPLAY DETAILS            Leitura científica (←/→ páginas)
+4. PLOT ROUTE TARGET          Rota até à estação
+5. ENABLE AUTOPILOT           Aproxima-se da estação
+6. STABILIZE ALL              Para junto da estação
+7. DISPLAY DOCKING HUD        Vista de acoplagem (só no HELM, F1)
+
+ATENÇÃO
+- DISPLAY DETAILS só funciona no SCIENCE, e só para alguns objetos.
+- DISPLAY DOCKING HUD só funciona no HELM: prima F1 antes do passo 7.
+- O piloto automático não gere o reator: vigie o ENGINEERING (F2).
+- Para acoplar: Acoplar, reparar e reabastecer, passo 6 (DATA LINK).

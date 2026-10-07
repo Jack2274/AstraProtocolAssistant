@@ -1,0 +1,37 @@
+# keywords: missão, objetivo, diário, registro, capitão, transmissão, mensagem, salvar, gravar, carregar, pausar, pausa, apelido, atalho, configurações, opções, ajuda, sair, fechar, linha de comando
+OPERATIONS (F6) - Missão e registros
+Status da missão, caças, diário do capitão e transmissões recebidas.
+
+TRANSMISSÕES E CAÇAS
+DISPLAY TRANSMISSION          Última transmissão (←/→ páginas)
+DISPLAY FIGHTER STATUS [n]    Status de um caça (sem n = todos)
+
+DIÁRIO (LOG)
+LOG [entrada]                 Edita uma entrada (sem número = nova)
+  F9 editar · F10 cancelar · F11 salvar · F12 ler em voz alta
+
+SISTEMA
+PAUSE                         Pausa
+UNPAUSE / CONTINUE            Retoma
+SAVE                          Salva a missão
+LOAD                          Carrega uma missão
+ALIAS <apelido> / <comando>   Cria atalho (sem comando = remove)
+  ex.: ALIAS FULL SHIELDS / SET SHIELDS 100
+SAVE ALIASES / LOAD ALIASES   Salva / carrega os atalhos
+MANUAL OVERRIDE               Controle manual da tela (o mesmo que F12)
+SETTINGS                      Configurações (F1-F4 categorias, Esc sai)
+HELP                          Lista resumida de comandos (←/→ páginas)
+DISPLAY CREDITS               Créditos
+SHUTDOWN                      Desliga o terminal
+
+LINHA DE COMANDO
+Tab                           Autocompletar
+↑ / ↓                         Histórico de comandos
+HELM, SCIENCE... + Enter      Digitar o nome de uma tela a abre
+F12                           Controle manual
+Esc                           Sai de sub-tela / controle manual
+
+CONTROLE MANUAL (F12, Esc sai)
+↑ / ↓                         Navega na lista
+Tab                           Alterna diário / transmissões
+Enter                         Abre o item selecionado

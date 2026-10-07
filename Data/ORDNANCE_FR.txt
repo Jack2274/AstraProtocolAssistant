@@ -1,0 +1,43 @@
+# keywords: armes, armement, combat, combattre, attaquer, attaque, tirer, tir, missile, torpille, laser, mine, leurre, contre-mesures, brouilleur, impulsion électromagnétique, chasseurs, drones, défense, munitions
+ORDNANCE (F4) - Combat
+Boucliers, radar de combat, munitions (missiles, mines, leurres), verrouillage,
+lasers, état de rechargement des tubes et schémas de la cible.
+
+MISSILES
+FIRE [ALL]                    Tire tous les missiles chargés
+FIRE <côté> [ALL | tube]      Tire d'un côté (ou d'un tube)
+RELOAD [ALL]                  Recharge tout
+RELOAD <côté> [ALL | tube]    Recharge un côté (ou un tube)
+UNLOAD [ALL]                  Décharge tout
+UNLOAD <côté> [ALL | tube]    Décharge un côté (ou un tube)
+ABORT RELOAD [côté | ALL]     Annule les rechargements en cours
+  <côté> = FORWARD | STARBOARD | PORT
+
+LASERS
+ENABLE LASERS                 Active le ciblage et le tir automatiques
+DISABLE LASERS                Désactive
+SET LASERS <%>                Puissance des lasers
+SET LASER MODE <mode>         Priorité du ciblage automatique :
+  ASTEROIDS | CLOSEST | FIGHTERS | LIFEFORMS | MISSILES | TARGET
+
+CONTRE-MESURES
+DROP CHAFF                    Largue des leurres (brouillage électromagnétique)
+DROP MINE                     Largue une mine
+LAUNCH EMP [délai]            Impulsion IEM (délai par défaut 3 s)
+ENABLE SIGNAL JAMMERS         Brouille les signaux de la cible (cible requise)
+DISABLE SIGNAL JAMMERS        Arrête le brouillage
+
+CHASSEURS (drones IA)
+LAUNCH FIGHTERS [baie]        Lance les chasseurs (sans baie = toutes)
+RECALL FIGHTERS [chasseur]    Rappelle les chasseurs (sans numéro = tous)
+SET FIGHTER MODE <mode> [chasseur]
+  CLOSEST | FIGHTERS | SHIPS | TARGET | IDLE (suit le vaisseau, sans attaque)
+
+BOUCLIERS
+SET SHIELDS [face] <%>        FORWARD | STARBOARD | PORT | AFT
+
+COMMANDES MANUELLES (F12, Esc pour quitter)
+Num 0                         Active/désactive les lasers
+Num 7 / 4 / 1                 Missile bâbord 1 / 2 / 3
+Num 9 / 6 / 3                 Missile tribord 1 / 2 / 3
+Num 8 / 5                     Missile avant 1 / 2

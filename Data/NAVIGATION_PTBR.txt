@@ -1,0 +1,43 @@
+# keywords: navegação, navegar, rota, caminho, trajeto, ponto de passagem, piloto automático, viajar, viagem, ir, mapa, coordenadas, salto, pular, dobra, seguir, limitador, limite de velocidade, carta estelar, mapa estelar
+NAVIGATION (F5) - Navegação e piloto automático
+Mapa do setor, vista curta, bússola, estado e rota do piloto automático.
+
+TECLAS
+F9                            Liga/desliga o piloto automático
+F10 / F11                     Aproxima / afasta o mapa
+
+ROTA
+PLOT ROUTE <x,y>              Adiciona coordenada à rota
+PLOT ROUTE TARGET             Adiciona a posição atual do alvo
+REMOVE ROUTE [qtd]            Remove o(s) último(s) ponto(s)
+CLEAR ROUTE                   Apaga a rota inteira
+
+PILOTO AUTOMÁTICO
+ENABLE AUTOPILOT              Liga
+DISABLE AUTOPILOT             Desliga
+SET AUTOPILOT ENGINES <valor>     Ritmo do motor no piloto automático
+SET AUTOPILOT THRUSTERS <valor>   Ritmo dos laterais
+SET AUTOPILOT RUDDER <valor>      Ritmo do leme
+ENABLE LIMITER                Liga o limite de velocidade
+DISABLE LIMITER               Desliga o limite
+SET LIMITER <velocidade>      Velocidade máxima do piloto automático
+FOLLOW [dist1] [dist2]        Segue o alvo (aproxima até dist1, para em dist2)
+ABORT FOLLOW                  Para de seguir
+
+WARP
+WARP <x,y>                    Salta até a coordenada (nave parada)
+ABORT WARP                    Desliga o warp
+  Carga enorme no reator; o choque desliga sistemas por um tempo.
+
+MAPA
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (padrão 1)
+SET ZOOM <%>                  Define o zoom
+RECENTRE                      Centraliza o mapa na nave
+DISPLAY STARCHART             Mapa estelar de pontos descobertos
+  Espaço = mostra/esconde nomes   Tab = alterna o objeto destacado
+
+CONTROLE MANUAL (F12, Esc sai)
+↑ ↓ ← →                       Move o cursor
+Enter                         Adiciona o ponto à rota
+Backspace                     Remove o último ponto
++ / -                         Aproxima / afasta

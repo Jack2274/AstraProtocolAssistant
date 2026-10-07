@@ -1,0 +1,36 @@
+# keywords: pilot, piloting, fly, steer, move, movement, speed, velocity, engine, thrust, rotate, turn, bearing, heading, dock, docking, umbilical, airlock, stop
+HELM (F1) - Flying the starship
+Short range view, engines, thrusters, rudder, speed, coordinates and compass.
+With engines at 0 the ship keeps moving (inertia) unless it is stabilized.
+
+ENGINES
+SET ENGINES <%>               Primary engines, forward/reverse (negative = reverse)
+SET THRUSTERS <%>             Lateral engines (+ starboard / - port)
+SET RUDDER <%>                Rotation (+ clockwise / - counter-clockwise)
+SET BEARING <angle>           Rotates the ship to the given bearing
+
+STABILIZE
+STABILIZE [ALL]               Stops translation and rotation
+STABILIZE POSITION            Stops translation only
+STABILIZE ROTATION            Stops rotation only
+
+DOCKING
+DISPLAY DOCKING HUD           Opens the docking HUD (HELM only)
+DATA LINK                     Links with the target (both sides must accept)
+ABORT LINK                    Cancels the data link
+REQUEST DOCK                  Requests docking (needs DATA LINK)
+REQUEST DRYDOCK               Requests repairs (needs DATA LINK)
+REQUEST RESUPPLY              Requests resupply (needs DATA LINK)
+UMBILICAL ANGLE <side> <angle>    Umbilical angle (must be retracted)
+UMBILICAL EXTEND <side>       Extends the umbilical
+UMBILICAL LOCK <side>         Locks onto the target airlock
+UMBILICAL UNLOCK <side>       Unlocks (unlock before retracting!)
+UMBILICAL RETRACT <side>      Retracts the umbilical
+UMBILICAL STOP <side>         Halts extension/retraction
+OPEN AIRLOCK <side>           Opens the airlock (risks life support)
+CLOSE AIRLOCK <side>          Closes the airlock
+  <side> = STARBOARD | PORT
+
+MANUAL CONTROLS (F12, Esc exits)
++ / -                         Increase / decrease primary engines
+← / →                         Counter-clockwise / clockwise rotation

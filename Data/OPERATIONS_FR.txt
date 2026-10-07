@@ -1,0 +1,37 @@
+# keywords: mission, journal, capitaine, transmission, message, sauvegarder, sauvegarde, charger, pause, alias, raccourci, paramètres, réglages, options, aide, quitter, sortir, ligne de commande, commandes
+OPERATIONS (F6) - Mission et journaux
+État de la mission, chasseurs, journal du capitaine et transmissions reçues.
+
+TRANSMISSIONS ET CHASSEURS
+DISPLAY TRANSMISSION          Dernière transmission (pages ←/→)
+DISPLAY FIGHTER STATUS [n]    État d'un chasseur (sans n = tous)
+
+JOURNAL DU CAPITAINE
+LOG [entrée]                  Modifie une entrée (sans numéro = nouvelle)
+  F9 modifier · F10 annuler · F11 enregistrer · F12 lire à voix haute
+
+SYSTÈME
+PAUSE                         Met en pause
+UNPAUSE / CONTINUE            Reprend
+SAVE                          Sauvegarde la mission
+LOAD                          Charge une mission
+ALIAS <alias> / <commande>    Crée un raccourci (sans commande = supprime)
+  ex. ALIAS FULL SHIELDS / SET SHIELDS 100
+SAVE ALIASES / LOAD ALIASES   Sauvegarde / charge les raccourcis
+MANUAL OVERRIDE               Contrôle manuel de l'écran (comme F12)
+SETTINGS                      Paramètres (catégories F1-F4, Esc pour quitter)
+HELP                          Liste abrégée des commandes (pages ←/→)
+DISPLAY CREDITS               Crédits
+SHUTDOWN                      Éteint le terminal
+
+LIGNE DE COMMANDE
+Tab                           Complétion automatique
+↑ / ↓                         Historique des commandes
+HELM, SCIENCE... + Enter      Taper un nom d'écran l'ouvre
+F12                           Contrôle manuel
+Esc                           Quitte le sous-écran / le contrôle manuel
+
+COMMANDES MANUELLES (F12, Esc pour quitter)
+↑ / ↓                         Parcourt la liste
+Tab                           Alterne journal du capitaine / transmissions
+Enter                         Ouvre l'élément sélectionné

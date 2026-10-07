@@ -1,0 +1,15 @@
+Astra Protocol Assistant  v{versao}
+Author: jack-22
+Contact: coming soon
+
+Quick reference for the modules and commands of Astra Protocol 2.
+Unofficial fan tool. Astra Protocol 2 is a game by Slice Bar Games;
+commands are based on the official Astral Guidance Operating System manual.
+
+F1–F6       Open the reference screens (same keys as the game)
+F7          Coordinate calculator (ship + scan = destination)
+F8          Language and about
+F9 / Ctrl+F Free search across screens and procedures
+Tab         Switch between reference screens and procedures
+↑ ↓ ← →     Navigate and scroll
+Esc         Go back / exit

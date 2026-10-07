@@ -1,0 +1,36 @@
+# keywords: pilotar, pilotaje, volar, conducir, dirigir, mover, movimiento, velocidad, rapidez, motor, motores, empuje, propulsión, propulsor, girar, rotar, virar, giro, rumbo, dirección, timón, acoplar, atracar, esclusa, detener, frenar
+HELM (F1) - Pilotaje de la nave
+Vista de corto alcance, motores, propulsores, timón, velocidad, coords, brújula.
+Con motores en 0 la nave sigue moviéndose (inercia) salvo que se estabilice.
+
+MOTORES
+SET ENGINES <%>               Motores principales, avance/retroceso (- = atrás)
+SET THRUSTERS <%>             Motores laterales (+ estribor / - babor)
+SET RUDDER <%>                Rotación (+ horario / - antihorario)
+SET BEARING <ángulo>          Gira la nave al rumbo indicado
+
+ESTABILIZAR
+STABILIZE [ALL]               Detiene traslación y rotación
+STABILIZE POSITION            Detiene solo la traslación
+STABILIZE ROTATION            Detiene solo la rotación
+
+ACOPLAMIENTO
+DISPLAY DOCKING HUD           Abre el HUD de acoplamiento (solo HELM)
+DATA LINK                     Enlaza con el objetivo (ambos deben aceptar)
+ABORT LINK                    Cancela el enlace de datos
+REQUEST DOCK                  Solicita acoplamiento (requiere DATA LINK)
+REQUEST DRYDOCK               Solicita reparaciones (requiere DATA LINK)
+REQUEST RESUPPLY              Solicita reabastecimiento (requiere DATA LINK)
+UMBILICAL ANGLE <lado> <ángulo>    Ángulo del umbilical (debe estar retraído)
+UMBILICAL EXTEND <lado>       Extiende el umbilical
+UMBILICAL LOCK <lado>         Se fija a la esclusa del objetivo
+UMBILICAL UNLOCK <lado>       Suelta (¡suelte antes de retraer!)
+UMBILICAL RETRACT <lado>      Retrae el umbilical
+UMBILICAL STOP <lado>         Detiene extensión/retracción
+OPEN AIRLOCK <lado>           Abre la esclusa (pone en riesgo el soporte vital)
+CLOSE AIRLOCK <lado>          Cierra la esclusa
+  <lado> = STARBOARD | PORT
+
+CONTROLES MANUALES (F12, Esc sale)
++ / -                         Aumenta / reduce motores principales
+← / →                         Rotación antihoraria / horaria

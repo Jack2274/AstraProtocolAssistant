@@ -1,0 +1,15 @@
+# keywords: arrêter, arrêt, stopper, freiner, freinage, immobiliser, immobile, stabiliser, stationnaire, ralentir, inertie, s'arrêter
+ARRÊTER LE VAISSEAU
+Immobiliser complètement le vaisseau. Moteurs à 0, le vaisseau continue
+d'avancer (inertie) : il faut le stabiliser.
+
+ÉTAPES
+1. DISABLE AUTOPILOT          Le pilote auto. peut annuler les ordres manuels
+2. SET ENGINES 0              Moteurs principaux coupés
+3. SET THRUSTERS 0            Moteurs latéraux coupés
+4. SET RUDDER 0               Rotation coupée
+5. STABILIZE ALL              Arrête la translation et la rotation
+
+ATTENTION
+- STABILIZE POSITION ou STABILIZE ROTATION n'arrêtent que l'une des deux.
+- Activer le pilote automatique sans route stabilise aussi le vaisseau.

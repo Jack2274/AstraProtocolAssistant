@@ -1,0 +1,6 @@
+# Mantém as quebras de linha como estão nos arquivos (LF), sem conversão para CRLF no Windows.
+* text=auto eol=lf
+
+# Arquivos binários
+*.ico binary
+*.pdf binary

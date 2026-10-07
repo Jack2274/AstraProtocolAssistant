@@ -1,0 +1,16 @@
+# keywords: reaktor, überhitzung, überhitzt, hitze, wärme, temperatur, kernschmelze, kühlen, kühlung, kühlmittel, explodieren, explosion, notfall, notlage
+REAKTORNOTFALL
+Senkt die Reaktortemperatur vor einer Kernschmelze.
+
+SCHRITTE
+1. INJECT COOLANT 20          Kleine Dosis: kühlt schneller
+2. SET LASERS 50              Senkt die Laserleistung
+3. SET SHIELDS 50             Senkt die Schildleistung
+4. DISABLE TRACTOR BEAM       Entfernt die Last des Traktorstrahls
+5. ABORT WARP                 Bricht einen ladenden Warp ab
+6. INJECT COOLANT 50          Größere Dosis: kühlt länger
+
+ACHTUNG
+- Reaktorlast und -temperatur werden in ENGINEERING (F2) angezeigt.
+- Kühlmittel ist begrenzt: vor dem Einleiten den Vorrat prüfen.
+- Überschreiten der Höchsttemperatur zerstört das Schiff.

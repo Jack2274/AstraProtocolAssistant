@@ -1,0 +1,18 @@
+# keywords: survivors, probe, explore, scan planet, investigate, rescue, search
+INVESTIGATE A PLANET
+Scan a planet and launch a probe to look for survivors.
+
+BEFORE YOU START
+- Open SCIENCE (F3). The planet must be within short range scanner distance.
+
+STEPS
+1. TARGET PLANET              Lock the nearest celestial body
+2. SCAN                       Scan the target (or F9)
+3. DISPLAY DETAILS            Scientific readout (←/→ pages)
+4. LAUNCH PROBE               Send a probe for data the scanner cannot get
+5. DISPLAY DETAILS            Read the results again
+
+WATCH
+- Each probe is used up; the remaining count is shown in SCIENCE.
+- If the signal is noisy: STABILIZE ALL, then FILTER NOISE.
+- Report survivors by docking with a station (see Dock, repair and resupply).

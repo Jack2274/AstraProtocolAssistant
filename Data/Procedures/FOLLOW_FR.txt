@@ -1,0 +1,18 @@
+# keywords: suivre, poursuivre, poursuite, traquer, pister, chasser, escorter, escorte, filer, accompagner, pilote automatique
+SUIVRE UN VAISSEAU
+Poursuivre un vaisseau en mouvement avec le pilote automatique.
+
+AVANT DE COMMENCER
+- Le vaisseau doit être à portée du scanner courte portée.
+
+ÉTAPES
+1. TARGET SHIP                Verrouille le vaisseau le plus proche (ou FIGHTER)
+2. FOLLOW 100 200             Suit : approche à 100, s'arrête à 200
+3. ENABLE AUTOPILOT           Commence la poursuite (ou F9 dans NAVIGATION)
+4. ABORT FOLLOW               Arrête de suivre à tout moment
+
+ATTENTION
+- TARGET SHIP verrouille le vaisseau le plus proche, qui peut être hostile.
+- Sans arguments, FOLLOW utilise les distances par défaut du jeu ;
+  ajustez les valeurs selon la cible.
+- Le pilote automatique ne gère pas le réacteur : surveillez ENGINEERING (F2).

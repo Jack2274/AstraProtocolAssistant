@@ -1,0 +1,18 @@
+# Procédures opérationnelles : ID|Titre
+# L'ID est le préfixe du fichier de chaque procédure (TRAVEL_TARGET_FR.txt, ...).
+# Ordre des étapes tiré du manuel officiel et des guides des joueurs.
+TRAVEL_TARGET|Aller vers une cible
+TRAVEL_COORDS|Aller à des coordonnées
+FOLLOW|Suivre un vaisseau
+STOP|Arrêter le vaisseau
+WARP|Saut en distorsion
+DOCK|S'amarrer, réparer et ravitailler
+UNDOCK|Se désamarrer
+PLANET|Étudier une planète
+STATION|Étudier une station
+LONGSCAN|Exploration longue portée
+COMBAT|Engager le combat
+MISSILE_DEF|Se défendre contre les missiles
+COLLISION|Alerte de collision
+FIGHTERS|Utiliser les chasseurs
+REACTOR|Urgence réacteur

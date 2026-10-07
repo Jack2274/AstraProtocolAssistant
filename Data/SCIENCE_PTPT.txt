@@ -1,0 +1,43 @@
+# keywords: analisar, análise, varrimento, sensor, sensores, detetar, deteção, encontrar, procurar, identificar, alvo, bloquear, sonda, planeta, sinal, ruído, radar, mapa, reconhecimento, socorro, pedido de ajuda, baliza
+SCIENCE (F3) - Deteção e identificação
+Mapa de longo alcance, vista curta, forma de onda do sinal mais próximo,
+contador Geiger, sondas restantes e esquema do alvo.
+
+TECLAS
+F9                            Analisa o alvo (scan)
+F10 / F11                     Amplia / reduz o mapa
+
+ALVO (só dentro do curto alcance)
+TARGET CLOSEST                Alvo válido mais próximo
+TARGET SHIP                   Nave mais próxima
+TARGET FIGHTER                Caça mais próximo (inclui aliados)
+TARGET STATION                Estação espacial mais próxima
+TARGET PLANET                 Corpo celeste mais próximo
+TARGET ASTEROID               Destroço/asteroide mais próximo
+TARGET LIFEFORMS              Forma de vida mais próxima
+TARGET COLLIDER               O que disparou o alerta de colisão
+TARGET CLEAR                  Remove o alvo
+
+SCANNERS
+SCAN                          Analisa o alvo atual
+SCAN SPACECRAFT               Naves próximas e distância relativa
+ABORT SCAN                    Cancela os scans ativos/pendentes
+LONG RANGE SCAN               Corpos celestes, sinais artificiais e estações
+DISPLAY LONG RANGE SCAN       Último resultado (coordenadas relativas)
+DISPLAY DETAILS               Leitura científica do alvo (←/→ páginas)
+LAUNCH PROBE                  Lança uma sonda (requer sondas em stock)
+FILTER NOISE                  Filtra o ruído (a nave tem de estar parada)
+ABORT FILTER                  Interrompe a filtragem
+ENABLE RADIO                  Liga o scanner de longo alcance
+DISABLE RADIO                 Desliga o scanner de longo alcance
+SET RADIO <alcance>           Alcance do scanner de longo alcance
+
+MAPA
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (valor por omissão: 1)
+SET ZOOM <%>                  Define o zoom
+RECENTRE                      Centra o mapa na nave
+
+CONTROLO MANUAL (F12, Esc sai)
+↑ ↓ ← →                       Move o cursor
+Enter                         Fixa o alvo sob o cursor
++ / -                         Amplia / reduz

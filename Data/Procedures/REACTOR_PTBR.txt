@@ -1,0 +1,16 @@
+# keywords: superaquecimento, superaquecer, esquentando, calor, quente, temperatura, derretimento, fusão, resfriar, esfriar, refrigerante, explodir, explosão, emergência, reator
+EMERGÊNCIA NO REATOR
+Baixa a temperatura do reator antes de um derretimento.
+
+PASSOS
+1. INJECT COOLANT 20          Dose pequena: resfria mais rápido
+2. SET LASERS 50              Reduz a potência dos lasers
+3. SET SHIELDS 50             Reduz a potência dos escudos
+4. DISABLE TRACTOR BEAM       Remove a carga do tractor beam
+5. ABORT WARP                 Cancela um warp em carga
+6. INJECT COOLANT 50          Dose maior: resfria por mais tempo
+
+ATENÇÃO
+- Carga e temperatura do reator aparecem no ENGINEERING (F2).
+- O refrigerante é limitado: confira o estoque antes de injetar.
+- Passar da temperatura máxima destrói a nave.

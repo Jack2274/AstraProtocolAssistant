@@ -1,0 +1,23 @@
+# keywords: andocken, anlegen, reparieren, reparatur, schaden, beschädigt, versorgen, nachschub, auftanken, tanken, vorräte, munition, überlebende, station, raumstation, trockendock, nabelschnur, luftschleuse
+ANDOCKEN, REPARIEREN UND VERSORGEN
+Verbindet mit einer Raumstation: Nachschub, Reparatur, Überlebende melden.
+
+SCHRITTE
+1. TARGET STATION             Erfasst die nächste Station
+2. PLOT ROUTE TARGET          Route zur Station
+3. ENABLE AUTOPILOT           Fliegt die Station an
+4. STABILIZE ALL              Stoppt neben der Station
+5. DISPLAY DOCKING HUD        Andock-Ansicht (nur in HELM)
+6. DATA LINK                  Verbindet mit der Station (beide zustimmen)
+7. REQUEST DOCK               Fordert Andockerlaubnis an
+8. UMBILICAL ANGLE PORT 15    (optional) Nabelschnurwinkel, eingefahren
+9. UMBILICAL EXTEND PORT      Fährt die Nabelschnur zur Luftschleuse aus
+10. UMBILICAL LOCK PORT       Koppelt an die Luftschleuse der Station
+11. OPEN AIRLOCK PORT         Öffnet den Durchgang
+12. REQUEST RESUPPLY          Fordert Nachschub an
+13. REQUEST DRYDOCK           (falls nötig) Repariert das Schiff
+
+ACHTUNG
+- Die Seite (PORT oder STARBOARD) zur Luftschleuse der Station verwenden;
+  das DOCKING HUD zeigt die nächste Luftschleuse.
+- Schiff beim Koppeln ruhig halten: zu viel Bewegung trennt die Nabelschnur.

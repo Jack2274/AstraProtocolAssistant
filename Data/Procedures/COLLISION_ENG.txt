@@ -1,0 +1,18 @@
+# keywords: crash, impact, asteroid, avoid, dodge, evade, obstacle
+COLLISION ALERT
+React when the collision warning goes off.
+
+STEPS
+1. TARGET COLLIDER            Lock what triggered the warning
+2. SCAN                       Identify the object (asteroid, ship...)
+3. SET THRUSTERS 100          Dodge sideways (or -100 for the other side)
+4. SET SHIELDS FORWARD 100    Reinforce the threatened face
+5. SET LASER MODE TARGET      (if asteroid) Lasers on the target
+6. ENABLE LASERS              Fire at the object
+7. STABILIZE ALL              Stop once out of the collision path
+
+WATCH
+- Do not start with STABILIZE: stopping does not get the ship out of the way.
+- Manual control (F12) in HELM has no lateral thrust: use SET THRUSTERS.
+- Use the face (FORWARD, STARBOARD, PORT, AFT) the object comes from;
+  the combat radar in ORDNANCE (F4) shows it.

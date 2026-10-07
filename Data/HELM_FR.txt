@@ -1,0 +1,36 @@
+# keywords: pilotage, piloter, conduire, diriger, manœuvrer, déplacer, déplacement, avancer, reculer, vitesse, propulsion, moteurs, propulseurs, poussée, tourner, pivoter, rotation, gouvernail, cap, direction, amarrage, amarrer, ombilical, sas, arrêter
+HELM (F1) - Pilotage du vaisseau
+Vue courte portée, moteurs, propulseurs, gouvernail, vitesse, coordonnées, cap.
+Moteurs à 0, le vaisseau continue d'avancer (inertie) s'il n'est pas stabilisé.
+
+MOTEURS
+SET ENGINES <%>               Moteurs principaux avant/arrière (négatif = recul)
+SET THRUSTERS <%>             Moteurs latéraux (+ tribord / - bâbord)
+SET RUDDER <%>                Rotation (+ horaire / - antihoraire)
+SET BEARING <angle>           Oriente le vaisseau vers le cap indiqué
+
+STABILISATION
+STABILIZE [ALL]               Arrête la translation et la rotation
+STABILIZE POSITION            Arrête seulement la translation
+STABILIZE ROTATION            Arrête seulement la rotation
+
+AMARRAGE
+DISPLAY DOCKING HUD           Ouvre le HUD d'amarrage (HELM uniquement)
+DATA LINK                     Liaison avec la cible (les deux doivent accepter)
+ABORT LINK                    Annule la liaison de données
+REQUEST DOCK                  Demande l'amarrage (requiert DATA LINK)
+REQUEST DRYDOCK               Demande des réparations (requiert DATA LINK)
+REQUEST RESUPPLY              Demande un ravitaillement (requiert DATA LINK)
+UMBILICAL ANGLE <côté> <angle>    Angle de l'ombilical (doit être rétracté)
+UMBILICAL EXTEND <côté>       Déploie l'ombilical
+UMBILICAL LOCK <côté>         Verrouille sur le sas de la cible
+UMBILICAL UNLOCK <côté>       Déverrouille (avant de rétracter !)
+UMBILICAL RETRACT <côté>      Rétracte l'ombilical
+UMBILICAL STOP <côté>         Interrompt le déploiement/la rétraction
+OPEN AIRLOCK <côté>           Ouvre le sas (risque pour le support vital)
+CLOSE AIRLOCK <côté>          Ferme le sas
+  <côté> = STARBOARD | PORT
+
+COMMANDES MANUELLES (F12, Esc pour quitter)
++ / -                         Augmente / réduit les moteurs principaux
+← / →                         Rotation antihoraire / horaire

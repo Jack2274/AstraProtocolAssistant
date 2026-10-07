@@ -1,0 +1,18 @@
+# keywords: planet, überlebende, sonde, erkunden, erforschen, untersuchen, planet scannen, scannen, retten, rettung, suchen, suche
+EINEN PLANETEN UNTERSUCHEN
+Scannt einen Planeten und startet eine Sonde zur Suche nach Überlebenden.
+
+VOR DEM START
+- SCIENCE (F3) öffnen. Planet muss in Reichweite des Nahbereichsscanners sein.
+
+SCHRITTE
+1. TARGET PLANET              Erfasst den nächsten Himmelskörper
+2. SCAN                       Scannt das Ziel (oder F9)
+3. DISPLAY DETAILS            Wissenschaftliche Daten (←/→ Seiten)
+4. LAUNCH PROBE               Sonde für Daten, die der Scanner nicht liefert
+5. DISPLAY DETAILS            Ergebnisse erneut lesen
+
+ACHTUNG
+- Jede Sonde wird verbraucht; der Restbestand steht in SCIENCE.
+- Bei verrauschtem Signal: STABILIZE ALL, dann FILTER NOISE.
+- Überlebende per Andocken melden (siehe Andocken, reparieren und versorgen).

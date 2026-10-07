@@ -1,0 +1,15 @@
+# keywords: halt, brake, freeze, still, stabilize, standstill, stop
+STOP THE SHIP
+Bring the ship to a full stop. With engines at 0 the ship keeps
+moving (inertia): it has to be stabilized.
+
+STEPS
+1. DISABLE AUTOPILOT          The autopilot may override manual commands
+2. SET ENGINES 0              Primary engines off
+3. SET THRUSTERS 0            Lateral engines off
+4. SET RUDDER 0               Rotation off
+5. STABILIZE ALL              Cancel translation and rotation
+
+WATCH
+- STABILIZE POSITION or STABILIZE ROTATION stop only one of the two.
+- Enabling the autopilot with no route also stabilizes the ship.

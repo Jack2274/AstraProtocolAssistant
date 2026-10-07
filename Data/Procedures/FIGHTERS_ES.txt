@@ -1,0 +1,16 @@
+# keywords: cazas, drones, escuadrón, escuadrilla, escolta, lanzar, despegar, retirar, recuperar, llamar de vuelta, compañeros de ala, aliados
+USAR CAZAS
+Lance los cazas dron con IA, sígalos y tráigalos de vuelta.
+
+PASOS
+1. SET FIGHTER MODE CLOSEST   Ataca al enemigo más cercano (antes de lanzar)
+2. LAUNCH FIGHTERS            Todos los hangares (o uno: LAUNCH FIGHTERS 1)
+3. DISPLAY FIGHTER STATUS     Sigue su estado
+4. RECALL FIGHTERS            Los trae de vuelta (requiere un hangar libre)
+
+MODOS
+- CLOSEST, FIGHTERS, SHIPS, TARGET o IDLE (sigue a la nave, no ataca).
+
+ATENCIÓN
+- Los cazas tienen combustible limitado: llámelos antes de que se agote.
+- Los hangares se ven en ENGINEERING (F2); los cazas en OPERATIONS (F6).

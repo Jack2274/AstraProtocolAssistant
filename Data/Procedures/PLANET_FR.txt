@@ -1,0 +1,18 @@
+# keywords: planète, survivants, sonde, explorer, exploration, scanner planète, analyser, enquêter, étudier, sauvetage, secourir, chercher, recherche
+ÉTUDIER UNE PLANÈTE
+Scanner une planète et lancer une sonde pour chercher des survivants.
+
+AVANT DE COMMENCER
+- Ouvrez SCIENCE (F3). La planète doit être à portée du scanner courte portée.
+
+ÉTAPES
+1. TARGET PLANET              Verrouille le corps céleste le plus proche
+2. SCAN                       Scanne la cible (ou F9)
+3. DISPLAY DETAILS            Analyse scientifique (pages ←/→)
+4. LAUNCH PROBE               Envoie une sonde pour les données hors scanner
+5. DISPLAY DETAILS            Relit les résultats
+
+ATTENTION
+- Chaque sonde est consommée ; le nombre restant s'affiche dans SCIENCE.
+- Si le signal est bruité : STABILIZE ALL, puis FILTER NOISE.
+- Signalez les survivants (voir S'amarrer, réparer et ravitailler).

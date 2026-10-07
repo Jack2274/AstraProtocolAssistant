@@ -1,0 +1,17 @@
+# keywords: salto, saltar, pular, dobra, dobra espacial, teletransporte, teleportar, hiperespaço, viagem rápida, longe, distante, distância, atalho, viajar rápido
+SALTO DE WARP
+Dobra o espaço para chegar a um ponto distante quase na hora.
+
+ANTES DE COMEÇAR
+- Verifique o reator no ENGINEERING (F2): o warp gera carga enorme nele.
+
+PASSOS
+1. DISABLE AUTOPILOT          Evita que o piloto automático mova a nave
+2. STABILIZE ALL              A nave precisa ficar parada
+3. WARP 10,10                 Inicia o motor de warp rumo à coordenada
+4. INJECT COOLANT 20          (se preciso) Resfria o reator durante a carga
+5. ABORT WARP                 (se preciso) Cancela o salto
+
+ATENÇÃO
+- O warp leva um tempo para carregar; não mova a nave enquanto isso.
+- Após o salto, um choque eletromagnético pode desligar sistemas por um tempo.

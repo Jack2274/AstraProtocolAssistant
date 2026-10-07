@@ -1,0 +1,23 @@
+# keywords: atracar, atracação, acoplar, encaixar, reparar, consertar, conserto, reparo, reabastecer, abastecer, combustível, suprimentos, munição, sobreviventes, estação, doca, estaleiro, umbilical, câmara de ar, eclusa
+ATRACAR, REPARAR E REABASTECER
+Conecta-se a uma estação para reabastecer, reparar e relatar sobreviventes.
+
+PASSOS
+1. TARGET STATION             Trava a estação mais próxima
+2. PLOT ROUTE TARGET          Rota até a estação
+3. ENABLE AUTOPILOT           Aproxima-se da estação
+4. STABILIZE ALL              Para ao lado da estação
+5. DISPLAY DOCKING HUD        Vista de atracação (só no HELM)
+6. DATA LINK                  Conecta com a estação (os dois lados aceitam)
+7. REQUEST DOCK               Pede permissão para atracar
+8. UMBILICAL ANGLE PORT 15    (opcional) Ângulo do umbilical, recolhido
+9. UMBILICAL EXTEND PORT      Estende o umbilical até o airlock
+10. UMBILICAL LOCK PORT       Trava no airlock da estação
+11. OPEN AIRLOCK PORT         Abre a passagem
+12. REQUEST RESUPPLY          Reabastece o material
+13. REQUEST DRYDOCK           (se preciso) Repara a nave
+
+ATENÇÃO
+- Use o lado (PORT ou STARBOARD) voltado para o airlock da estação;
+  o DOCKING HUD mostra o airlock mais próximo.
+- Mantenha a nave parada enquanto travada: muito movimento rompe o umbilical.

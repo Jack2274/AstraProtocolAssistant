@@ -1,0 +1,15 @@
+# keywords: parar, frear, freio, travar, imobilizar, ficar parado, parada, estabilizar, estabilização, inércia, deriva, segurar a nave, zerar velocidade
+PARAR A NAVE
+Para a nave por completo. Com os motores em 0 a nave segue em
+movimento (inércia): é preciso estabilizá-la.
+
+PASSOS
+1. DISABLE AUTOPILOT          O piloto automático pode anular comandos manuais
+2. SET ENGINES 0              Motor principal desligado
+3. SET THRUSTERS 0            Laterais desligados
+4. SET RUDDER 0               Rotação desligada
+5. STABILIZE ALL              Para translação e rotação
+
+ATENÇÃO
+- STABILIZE POSITION ou STABILIZE ROTATION param só uma das duas.
+- Ligar o piloto automático sem rota também estabiliza a nave.

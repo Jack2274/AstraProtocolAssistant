@@ -1,0 +1,23 @@
+# keywords: dock, docking, repair, fix, resupply, refuel, supplies, ammo, survivors, station, drydock, umbilical, airlock
+DOCK, REPAIR AND RESUPPLY
+Connect to a space station to resupply, repair and report survivors.
+
+STEPS
+1. TARGET STATION             Lock the nearest station
+2. PLOT ROUTE TARGET          Route to the station
+3. ENABLE AUTOPILOT           Approach the station
+4. STABILIZE ALL              Stop next to the station
+5. DISPLAY DOCKING HUD        Docking view (only in HELM)
+6. DATA LINK                  Link with the station (both must accept)
+7. REQUEST DOCK               Ask for permission to dock
+8. UMBILICAL ANGLE PORT 15    (optional) Umbilical angle, while retracted
+9. UMBILICAL EXTEND PORT      Extend the umbilical to the airlock
+10. UMBILICAL LOCK PORT       Lock onto the station's airlock
+11. OPEN AIRLOCK PORT         Open the passage
+12. REQUEST RESUPPLY          Resupply materiel
+13. REQUEST DRYDOCK           (if needed) Repair the ship
+
+WATCH
+- Use the side (PORT or STARBOARD) facing the station's airlock;
+  the DOCKING HUD shows the closest airlock.
+- Keep the ship still while locked: too much movement severs the umbilical.

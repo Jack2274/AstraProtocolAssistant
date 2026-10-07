@@ -1,0 +1,23 @@
+# keywords: acoplar, acoplarse, atracar, atraque, reparar, arreglar, reparación, reabastecer, repostar, combustible, suministros, munición, supervivientes, sobrevivientes, estación, dique seco, umbilical, esclusa
+ACOPLARSE, REPARAR Y REABASTECER
+Conéctese a una estación para reabastecerse, reparar y reportar supervivientes.
+
+PASOS
+1. TARGET STATION             Fija la estación más cercana
+2. PLOT ROUTE TARGET          Ruta hacia la estación
+3. ENABLE AUTOPILOT           Se acerca a la estación
+4. STABILIZE ALL              Se detiene junto a la estación
+5. DISPLAY DOCKING HUD        Vista de acoplamiento (solo en HELM)
+6. DATA LINK                  Enlaza con la estación (ambos deben aceptar)
+7. REQUEST DOCK               Solicita permiso para acoplarse
+8. UMBILICAL ANGLE PORT 15    (opcional) Ángulo del umbilical, aún retraído
+9. UMBILICAL EXTEND PORT      Extiende el umbilical hasta la esclusa
+10. UMBILICAL LOCK PORT       Se fija a la esclusa de la estación
+11. OPEN AIRLOCK PORT         Abre el paso
+12. REQUEST RESUPPLY          Reabastece material
+13. REQUEST DRYDOCK           (si hace falta) Repara la nave
+
+ATENCIÓN
+- Use el lado (PORT o STARBOARD) orientado a la esclusa de la estación;
+  el DOCKING HUD muestra la esclusa más cercana.
+- No mueva la nave mientras esté fijada: mucho movimiento corta el umbilical.

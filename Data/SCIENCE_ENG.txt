@@ -1,0 +1,43 @@
+# keywords: scan, scanner, sensor, detect, find, identify, target, lock, probe, planet, signal, noise, radar, map, survey, distress, beacon
+SCIENCE (F3) - Detection and identification
+Long range map, short range view, waveform of the nearest signal,
+Geiger counter, remaining probes and target schematics.
+
+HOTKEYS
+F9                            Scan target
+F10 / F11                     Zoom in / zoom out
+
+TARGET (short range scanner distance only)
+TARGET CLOSEST                Closest valid target
+TARGET SHIP                   Closest spacecraft
+TARGET FIGHTER                Closest fighter (includes allies)
+TARGET STATION                Closest space station
+TARGET PLANET                 Closest celestial body
+TARGET ASTEROID               Closest space debris
+TARGET LIFEFORMS              Closest living biological matter
+TARGET COLLIDER               Whatever triggered the collision warning
+TARGET CLEAR                  Clears the target
+
+SCANNERS
+SCAN                          Scans the current target
+SCAN SPACECRAFT               Nearby spacecraft and relative distance
+ABORT SCAN                    Cancels active/pending scans
+LONG RANGE SCAN               Celestial bodies, artificial signs, stations
+DISPLAY LONG RANGE SCAN       Latest results (relative coordinates)
+DISPLAY DETAILS               Scientific readout of target (←/→ pages)
+LAUNCH PROBE                  Launches a probe (needs one in stock)
+FILTER NOISE                  Filters noise (ship must be stable)
+ABORT FILTER                  Stops filtering
+ENABLE RADIO                  Turns on the long range scanners
+DISABLE RADIO                 Turns off the long range scanners
+SET RADIO <range>             Long range scanner range
+
+MAP
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (default 1)
+SET ZOOM <%>                  Sets the zoom
+RECENTRE                      Centres the map on the ship
+
+MANUAL CONTROLS (F12, Esc exits)
+↑ ↓ ← →                       Move cursor
+Enter                         Target lock under cursor
++ / -                         Zoom in / zoom out

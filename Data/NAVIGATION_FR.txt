@@ -1,0 +1,43 @@
+# keywords: navigation, naviguer, route, trajet, itinéraire, chemin, point de passage, pilote automatique, voyager, aller, carte, coordonnées, distorsion, saut, suivre, limiteur, limite de vitesse, carte stellaire
+NAVIGATION (F5) - Navigation et pilote automatique
+Carte du secteur, vue courte portée, compas, état du pilote automatique, route.
+
+RACCOURCIS
+F9                            Active/désactive le pilote automatique
+F10 / F11                     Zoom avant / zoom arrière
+
+ROUTE
+PLOT ROUTE <x,y>              Ajoute une coordonnée à la route
+PLOT ROUTE TARGET             Ajoute la position actuelle de la cible
+REMOVE ROUTE [nombre]         Retire le(s) dernier(s) point(s)
+CLEAR ROUTE                   Efface toute la route
+
+PILOTE AUTOMATIQUE
+ENABLE AUTOPILOT              Active
+DISABLE AUTOPILOT             Désactive
+SET AUTOPILOT ENGINES <valeur>    Régime moteur sous pilote automatique
+SET AUTOPILOT THRUSTERS <valeur>  Régime des propulseurs
+SET AUTOPILOT RUDDER <valeur>     Régime du gouvernail
+ENABLE LIMITER                Active le limiteur de vitesse
+DISABLE LIMITER               Désactive le limiteur
+SET LIMITER <vitesse>         Vitesse maximale du pilote automatique
+FOLLOW [dist1] [dist2]        Suit la cible (approche à dist1, arrêt à dist2)
+ABORT FOLLOW                  Arrête de suivre
+
+WARP
+WARP <x,y>                    Saut vers la coordonnée (vaisseau immobile)
+ABORT WARP                    Désengage le moteur de distorsion
+  Charge énorme du réacteur ; le choc désactive les systèmes un moment.
+
+CARTE
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (1 par défaut)
+SET ZOOM <%>                  Définit le zoom
+RECENTRE                      Centre la carte sur le vaisseau
+DISPLAY STARCHART             Carte stellaire des points découverts
+  Espace = afficher les noms   Tab = changer d'objet en surbrillance
+
+COMMANDES MANUELLES (F12, Esc pour quitter)
+↑ ↓ ← →                       Déplace le curseur
+Enter                         Ajoute le point à la route
+Backspace                     Retire le dernier point
++ / -                         Zoom avant / zoom arrière

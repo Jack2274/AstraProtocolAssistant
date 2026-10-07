@@ -1,0 +1,36 @@
+# keywords: steuerung, steuern, lenken, fliegen, pilot, bewegen, bewegung, geschwindigkeit, tempo, triebwerk, antrieb, schub, schubdüsen, drehen, wenden, ruder, kurs, richtung, kompass, andocken, nabelschnur, luftschleuse, anhalten, bremsen
+HELM (F1) - Steuerung des Schiffs
+Nahbereichsansicht, Triebwerke, Schubdüsen, Ruder, Tempo, Koordinaten, Kompass.
+Triebwerke auf 0: Schiff treibt weiter (Trägheit), außer es ist stabilisiert.
+
+TRIEBWERKE
+SET ENGINES <%>               Haupttriebwerke, vor/zurück (negativ = rückwärts)
+SET THRUSTERS <%>             Seitentriebwerke (+ Steuerbord / - Backbord)
+SET RUDDER <%>                Drehung (+ Uhrzeigersinn / - gegen Uhrzeigersinn)
+SET BEARING <Winkel>          Dreht das Schiff auf den angegebenen Kurs
+
+STABILISIEREN
+STABILIZE [ALL]               Stoppt Translation und Rotation
+STABILIZE POSITION            Stoppt nur die Translation
+STABILIZE ROTATION            Stoppt nur die Rotation
+
+ANDOCKEN
+DISPLAY DOCKING HUD           Öffnet das Andock-HUD (nur HELM)
+DATA LINK                     Verbindet mit dem Ziel (beide Seiten zustimmen)
+ABORT LINK                    Bricht den Datenlink ab
+REQUEST DOCK                  Fordert Andocken an (braucht DATA LINK)
+REQUEST DRYDOCK               Fordert Reparatur an (braucht DATA LINK)
+REQUEST RESUPPLY              Fordert Nachschub an (braucht DATA LINK)
+UMBILICAL ANGLE <Seite> <Winkel>    Winkel der Nabelschnur (eingefahren)
+UMBILICAL EXTEND <Seite>      Fährt die Nabelschnur aus
+UMBILICAL LOCK <Seite>        Koppelt an die Luftschleuse des Ziels
+UMBILICAL UNLOCK <Seite>      Entkoppelt (vor dem Einfahren entkoppeln!)
+UMBILICAL RETRACT <Seite>     Fährt die Nabelschnur ein
+UMBILICAL STOP <Seite>        Stoppt Aus-/Einfahren
+OPEN AIRLOCK <Seite>          Öffnet die Luftschleuse (Risiko: Lebenserhaltung)
+CLOSE AIRLOCK <Seite>         Schließt die Luftschleuse
+  <Seite> = STARBOARD | PORT
+
+MANUELLE STEUERUNG (F12, Esc beendet)
++ / -                         Haupttriebwerke erhöhen / verringern
+← / →                         Drehung gegen / im Uhrzeigersinn

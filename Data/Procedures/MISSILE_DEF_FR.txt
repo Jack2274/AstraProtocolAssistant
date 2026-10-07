@@ -1,0 +1,14 @@
+# keywords: missile entrant, missiles, torpille, esquiver, éviter, contre-mesures, leurres, protéger, protection, défense, se défendre, intercepter
+SE DÉFENDRE CONTRE LES MISSILES
+Réagir aux missiles en approche.
+
+ÉTAPES
+1. ENABLE LASERS              Tir laser automatique
+2. SET LASER MODE MISSILES    Les lasers visent le projectile le plus proche
+3. DROP CHAFF                 Contre-mesures électromagnétiques (leurres)
+4. SET SHIELDS AFT 100        Renforce la face menacée
+
+ATTENTION
+- Faces : FORWARD, STARBOARD, PORT ou AFT. Le radar de combat
+  dans ORDNANCE (F4) montre d'où vient la menace.
+- Les leurres nécessitent des charges en stock.

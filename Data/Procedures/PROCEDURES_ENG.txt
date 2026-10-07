@@ -1,0 +1,18 @@
+# Operating procedures: ID|Title
+# The ID is the file prefix of each procedure (TRAVEL_TARGET_ENG.txt, ...).
+# Order of steps derived from the official manual and player guides.
+TRAVEL_TARGET|Travel to a target
+TRAVEL_COORDS|Travel to coordinates
+FOLLOW|Follow a ship
+STOP|Stop the ship
+WARP|Warp jump
+DOCK|Dock, repair and resupply
+UNDOCK|Undock
+PLANET|Investigate a planet
+STATION|Investigate a station
+LONGSCAN|Long range survey
+COMBAT|Engage in combat
+MISSILE_DEF|Defend against missiles
+COLLISION|Collision alert
+FIGHTERS|Use fighters
+REACTOR|Reactor emergency

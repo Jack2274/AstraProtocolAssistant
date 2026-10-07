@@ -1,0 +1,16 @@
+# keywords: drones, squadron, escort, launch, recall, wingmen
+USE FIGHTERS
+Launch the AI drone fighters, follow them and bring them back.
+
+STEPS
+1. SET FIGHTER MODE CLOSEST   Attack the nearest enemy (set before launch)
+2. LAUNCH FIGHTERS            Launch from all bays (or one: LAUNCH FIGHTERS 1)
+3. DISPLAY FIGHTER STATUS     Follow their status
+4. RECALL FIGHTERS            Bring them back (needs a free bay)
+
+MODES
+- CLOSEST, FIGHTERS, SHIPS, TARGET, or IDLE (follows the ship, no attack).
+
+WATCH
+- Fighters run on limited fuel: recall them before they run out.
+- Fighter bays are shown in ENGINEERING (F2); fighters in OPERATIONS (F6).

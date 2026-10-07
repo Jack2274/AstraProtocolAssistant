@@ -1,0 +1,43 @@
+# keywords: scanner, balayage, analyser, analyse, capteur, détecter, détection, trouver, chercher, identifier, cible, cibler, verrouiller, sonde, planète, signal, bruit, radar, carte, exploration, détresse, balise
+SCIENCE (F3) - Détection et identification
+Carte longue portée, vue courte portée, forme d'onde du signal le plus proche,
+compteur Geiger, sondes restantes et schémas de la cible.
+
+RACCOURCIS
+F9                            Scanner la cible
+F10 / F11                     Zoom avant / zoom arrière
+
+CIBLE (portée du scanner courte portée uniquement)
+TARGET CLOSEST                Cible valide la plus proche
+TARGET SHIP                   Vaisseau le plus proche
+TARGET FIGHTER                Chasseur le plus proche (alliés inclus)
+TARGET STATION                Station spatiale la plus proche
+TARGET PLANET                 Corps céleste le plus proche
+TARGET ASTEROID               Débris spatial le plus proche
+TARGET LIFEFORMS              Matière biologique vivante la plus proche
+TARGET COLLIDER               Ce qui a déclenché l'alerte de collision
+TARGET CLEAR                  Efface la cible
+
+SCANNERS
+SCAN                          Scanne la cible actuelle
+SCAN SPACECRAFT               Vaisseaux proches et distance relative
+ABORT SCAN                    Annule les scans actifs/en attente
+LONG RANGE SCAN               Corps célestes, signes artificiels, stations
+DISPLAY LONG RANGE SCAN       Derniers résultats (coordonnées relatives)
+DISPLAY DETAILS               Analyse scientifique de la cible (pages ←/→)
+LAUNCH PROBE                  Lance une sonde (s'il en reste en stock)
+FILTER NOISE                  Filtre le bruit (vaisseau stable requis)
+ABORT FILTER                  Arrête le filtrage
+ENABLE RADIO                  Active les scanners longue portée
+DISABLE RADIO                 Désactive les scanners longue portée
+SET RADIO <portée>            Portée des scanners longue portée
+
+CARTE
+ZOOM IN [%] / ZOOM OUT [%]    Zoom (1 par défaut)
+SET ZOOM <%>                  Définit le zoom
+RECENTRE                      Centre la carte sur le vaisseau
+
+COMMANDES MANUELLES (F12, Esc pour quitter)
+↑ ↓ ← →                       Déplace le curseur
+Enter                         Verrouille la cible sous le curseur
++ / -                         Zoom avant / zoom arrière

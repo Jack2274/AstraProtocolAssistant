@@ -1,0 +1,18 @@
+# keywords: chase, pursue, track, escort, tail, autopilot
+FOLLOW A SHIP
+Keep chasing a moving ship using the autopilot.
+
+BEFORE YOU START
+- The ship must be within short range scanner distance.
+
+STEPS
+1. TARGET SHIP                Lock the nearest ship (or FIGHTER for fighters)
+2. FOLLOW 100 200             Follow: approach to 100, stop moving at 200
+3. ENABLE AUTOPILOT           Start following (or F9 in NAVIGATION)
+4. ABORT FOLLOW               Stop following at any time
+
+WATCH
+- TARGET SHIP locks the nearest ship, which may be hostile.
+- Without arguments FOLLOW uses the game's default distances;
+  adjust the values to the target.
+- The autopilot does not manage the reactor: keep an eye on ENGINEERING (F2).

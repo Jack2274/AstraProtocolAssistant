@@ -1,0 +1,14 @@
+# keywords: incoming, missile, torpedo, dodge, countermeasure, protect, defense, chaff
+DEFEND AGAINST MISSILES
+React to incoming missiles.
+
+STEPS
+1. ENABLE LASERS              Automatic laser fire
+2. SET LASER MODE MISSILES    Lasers target the nearest projectile
+3. DROP CHAFF                 Electromagnetic countermeasures
+4. SET SHIELDS AFT 100        Reinforce the threatened face
+
+WATCH
+- Faces: FORWARD, STARBOARD, PORT or AFT. Use the combat radar
+  in ORDNANCE (F4) to see where the threat comes from.
+- Chaff needs charges in stock.

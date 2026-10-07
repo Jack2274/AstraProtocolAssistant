@@ -1,0 +1,15 @@
+# keywords: anhalten, stoppen, halten, bremsen, abbremsen, stillstand, stehen bleiben, stabilisieren, treiben, trägheit, einfrieren
+SCHIFF ANHALTEN
+Bringt das Schiff zum völligen Stillstand. Mit Triebwerken auf 0 treibt
+das Schiff weiter (Trägheit): es muss stabilisiert werden.
+
+SCHRITTE
+1. DISABLE AUTOPILOT          Autopilot kann manuelle Befehle übersteuern
+2. SET ENGINES 0              Haupttriebwerke aus
+3. SET THRUSTERS 0            Seitentriebwerke aus
+4. SET RUDDER 0               Drehung aus
+5. STABILIZE ALL              Stoppt Translation und Rotation
+
+ACHTUNG
+- STABILIZE POSITION oder STABILIZE ROTATION stoppen nur eines von beiden.
+- Autopilot ohne Route einzuschalten stabilisiert das Schiff ebenfalls.

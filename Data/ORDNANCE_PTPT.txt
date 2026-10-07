@@ -1,0 +1,43 @@
+# keywords: armas, armamento, combate, atacar, ataque, lutar, disparar, atirar, míssil, mísseis, torpedo, laser, mina, minas, chaff, interferência, caças, drones, defesa, munições, recarregar
+ORDNANCE (F4) - Combate
+Escudos, radar de combate, munições (mísseis, minas, chaff), bloqueio de alvo,
+lasers, recarga dos tubos e esquema do alvo.
+
+MÍSSEIS
+FIRE [ALL]                    Dispara todos os mísseis carregados
+FIRE <lado> [ALL | tubo]      Dispara um lado (ou um tubo)
+RELOAD [ALL]                  Recarrega todos
+RELOAD <lado> [ALL | tubo]    Recarrega um lado (ou um tubo)
+UNLOAD [ALL]                  Descarrega todos
+UNLOAD <lado> [ALL | tubo]    Descarrega um lado (ou um tubo)
+ABORT RELOAD [lado | ALL]     Cancela as recargas em curso
+  <lado> = FORWARD | STARBOARD | PORT
+
+LASERS
+ENABLE LASERS                 Liga a pontaria e o disparo automáticos
+DISABLE LASERS                Desliga
+SET LASERS <%>                Potência dos lasers
+SET LASER MODE <modo>         Prioridade automática:
+  ASTEROIDS | CLOSEST | FIGHTERS | LIFEFORMS | MISSILES | TARGET
+
+CONTRAMEDIDAS
+DROP CHAFF                    Lança chaff (contramedida eletromagnética)
+DROP MINE                     Larga uma mina
+LAUNCH EMP [fuse]             Impulso EMP (fuse por omissão: 3 s)
+ENABLE SIGNAL JAMMERS         Bloqueia os sinais do alvo (requer alvo)
+DISABLE SIGNAL JAMMERS        Desliga o bloqueio
+
+CAÇAS (drones IA)
+LAUNCH FIGHTERS [baia]        Lança caças (sem baia = todos)
+RECALL FIGHTERS [caça]        Recolhe caças (sem número = todos)
+SET FIGHTER MODE <modo> [caça]
+  CLOSEST | FIGHTERS | SHIPS | TARGET | IDLE (segue a nave, não ataca)
+
+ESCUDOS
+SET SHIELDS [face] <%>        FORWARD | STARBOARD | PORT | AFT
+
+CONTROLO MANUAL (F12, Esc sai)
+Num 0                         Liga/desliga os lasers
+Num 7 / 4 / 1                 Míssil de bombordo 1 / 2 / 3
+Num 9 / 6 / 3                 Míssil de estibordo 1 / 2 / 3
+Num 8 / 5                     Míssil frontal 1 / 2

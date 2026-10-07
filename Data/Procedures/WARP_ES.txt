@@ -1,0 +1,17 @@
+# keywords: salto, saltar, teletransporte, teletransportarse, hiperespacio, viaje rápido, lejos, lejano, distancia, curvatura, velocidad warp
+SALTO WARP
+Pliegue el espacio para llegar a un punto lejano casi al instante.
+
+ANTES DE EMPEZAR
+- Revise el reactor en ENGINEERING (F2): el warp le impone una carga enorme.
+
+PASOS
+1. DISABLE AUTOPILOT          Evita que el piloto automático mueva la nave
+2. STABILIZE ALL              La nave debe permanecer inmóvil
+3. WARP 10,10                 Inicia el motor warp hacia la coordenada
+4. INJECT COOLANT 20          (si hace falta) Enfría el reactor al cargar
+5. ABORT WARP                 (si hace falta) Cancela el salto
+
+ATENCIÓN
+- El warp tarda en cargarse; no mueva la nave mientras tanto.
+- Tras el salto, un choque electromagnético puede desactivar sistemas un rato.

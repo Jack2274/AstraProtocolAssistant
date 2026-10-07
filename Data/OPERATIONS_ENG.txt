@@ -1,0 +1,37 @@
+# keywords: mission, log, captain, transmission, message, save, load, pause, alias, shortcut, settings, help, quit, exit, command line
+OPERATIONS (F6) - Mission and logs
+Mission status, fighters, captain's log and received transmissions.
+
+TRANSMISSIONS AND FIGHTERS
+DISPLAY TRANSMISSION          Latest transmission (←/→ pages)
+DISPLAY FIGHTER STATUS [n]    Status of one fighter (no n = all)
+
+CAPTAIN'S LOG
+LOG [entry]                   Edits an entry (no number = new)
+  F9 edit · F10 cancel · F11 store · F12 read aloud
+
+SYSTEM
+PAUSE                         Pauses
+UNPAUSE / CONTINUE            Resumes
+SAVE                          Saves the mission
+LOAD                          Loads a mission
+ALIAS <alias> / <command>     Creates a shortcut (no command = removes)
+  e.g. ALIAS FULL SHIELDS / SET SHIELDS 100
+SAVE ALIASES / LOAD ALIASES   Saves / loads the shortcuts
+MANUAL OVERRIDE               Manual control of the screen (same as F12)
+SETTINGS                      Settings (F1-F4 categories, Esc exits)
+HELP                          Abridged command list (←/→ pages)
+DISPLAY CREDITS               Credits
+SHUTDOWN                      Shuts down the terminal
+
+COMMAND LINE
+Tab                           Autocomplete
+↑ / ↓                         Command history
+HELM, SCIENCE... + Enter      Typing a screen name opens it
+F12                           Manual override
+Esc                           Leaves sub-screen / manual override
+
+MANUAL CONTROLS (F12, Esc exits)
+↑ / ↓                         Move through the list
+Tab                           Switch captain's log / transmissions
+Enter                         Open the selected item

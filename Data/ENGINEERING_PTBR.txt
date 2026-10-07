@@ -1,0 +1,30 @@
+# keywords: reator, calor, temperatura, superaquecimento, superaquecer, derretimento, fusão, refrigerante, resfriar, esfriar, escudos, casco, dano, avaria, reparar, consertar, conserto, reparo, estado, suporte de vida, oxigênio, radiação, raio trator, autodestruição, emergência
+ENGINEERING (F2) - Estado da nave
+Carga e temperatura do reator, escudos, casco, airlocks, umbilicais, tractor beam,
+contador Geiger, refrigerante e suporte de vida.
+Fique de olho no reator: sobrecarga causa superaquecimento e explosão.
+
+REATOR
+INJECT COOLANT <qtd>          Injeta refrigerante (litros) no reator
+DISPLAY DIAGNOSTICS           Relatório de todos os componentes e caças
+
+ESCUDOS
+SET SHIELDS [face] <%>        Potência do escudo (sem face = todos)
+ABORT RECHARGE SHIELDS [face] Cancela a recarga do escudo
+  [face] = FORWARD | STARBOARD | PORT | AFT (ALL no ABORT)
+
+TRACTOR BEAM
+ENABLE TRACTOR BEAM           Liga (exige alvo selecionado)
+DISABLE TRACTOR BEAM          Desliga
+REVERSE TRACTOR POLARITY      Alterna entre ATTRACT e REPEL
+
+EMERGÊNCIA
+DISABLE ALL [NOW]             Desliga todos os sistemas (NOW = sem confirmar)
+SELF DESTRUCT                 Autodestruição (confirma com Y, 15 s)
+ABORT DESTRUCT                Tenta cancelar a autodestruição
+
+ATENÇÃO
+- Escudos, lasers, motores e scanners somam carga no reator.
+- WARP gera carga enorme no reator.
+- Radiação acima do limite fura a blindagem (Geiger).
+- Airlock aberto drena o suporte de vida.

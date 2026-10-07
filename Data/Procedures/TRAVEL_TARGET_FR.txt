@@ -1,0 +1,18 @@
+# keywords: aller vers, aller à, se rendre, voyager, voler vers, déplacer, naviguer, rejoindre, approcher, s'approcher, pilote automatique, destination, cible
+ALLER VERS UNE CIBLE
+Conduire le vaisseau jusqu'à un objet avec le pilote automatique.
+
+AVANT DE COMMENCER
+- La cible doit être à portée du scanner courte portée.
+
+ÉTAPES
+1. TARGET STATION             Verrouille la cible (ou SHIP, PLANET, CLOSEST...)
+2. PLOT ROUTE TARGET          Ajoute la position de la cible à la route
+3. SET LIMITER 500            (optionnel) Vitesse max. du pilote automatique
+4. ENABLE LIMITER             (optionnel) Active le limiteur de vitesse
+5. ENABLE AUTOPILOT           Démarre le vol (ou F9 dans NAVIGATION)
+
+ATTENTION
+- Le pilote automatique ne gère pas le réacteur : surveillez ENGINEERING (F2).
+- PLOT ROUTE TARGET enregistre la position une seule fois. Cible mobile :
+  utilisez FOLLOW <dist1> <dist2> avec le pilote automatique activé.

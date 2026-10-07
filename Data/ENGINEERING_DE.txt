@@ -1,0 +1,30 @@
+# keywords: reaktor, hitze, wärme, temperatur, überhitzung, überhitzt, kernschmelze, kühlmittel, kühlen, kühlung, schilde, schutzschild, hülle, schaden, beschädigt, reparieren, reparatur, zustand, lebenserhaltung, strahlung, geigerzähler, traktorstrahl, selbstzerstörung, notfall
+ENGINEERING (F2) - Schiffsstatus
+Reaktorlast und -temperatur, Schilde, Hülle, Luftschleusen, Nabelschnüre,
+Traktorstrahl, Geigerzähler, Kühlmittel und Lebenserhaltung.
+Reaktor beobachten: Überlastung führt zu Überhitzung und explosivem Versagen.
+
+REAKTOR
+INJECT COOLANT <Menge>        Leitet Kühlmittel (Liter) in den Reaktor
+DISPLAY DIAGNOSTICS           Status aller Komponenten und Jäger
+
+SCHILDE
+SET SHIELDS [Seite] <%>       Schildleistung (ohne Seite = alle Schilde)
+ABORT RECHARGE SHIELDS [Seite] Bricht das Aufladen der Schilde ab
+  [Seite] = FORWARD | STARBOARD | PORT | AFT (ALL bei ABORT)
+
+TRAKTORSTRAHL
+ENABLE TRACTOR BEAM           Schaltet ein (braucht ein gewähltes Ziel)
+DISABLE TRACTOR BEAM          Schaltet aus
+REVERSE TRACTOR POLARITY      Wechselt zwischen ATTRACT und REPEL
+
+NOTFALL
+DISABLE ALL [NOW]             Schaltet alle Systeme ab (NOW = ohne Bestätigung)
+SELF DESTRUCT                 Selbstzerstörung (mit Y bestätigen, 15 s)
+ABORT DESTRUCT                Versucht, die Selbstzerstörung abzubrechen
+
+WARNUNGEN
+- Schilde, Laser, Triebwerke und Scanner erhöhen alle die Reaktorlast.
+- WARP belastet den Reaktor massiv.
+- Strahlung über dem Grenzwert durchbricht die Abschirmung (Geiger).
+- Eine offene Luftschleuse leert die Lebenserhaltung.
